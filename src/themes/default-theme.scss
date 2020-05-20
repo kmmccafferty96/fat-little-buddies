@@ -1,11 +1,13 @@
 $flb-red: (
   100: #e0b3b3,
   500: #990000,
-  800: #7c0000
+  800: #7c0000,
+  contrast: ()
 );
 
 $flb-yellow: (
-  500: #fadb03
+  500: #fadb03,
+  contrast: ()
 );
 
 $flb-primary: mat-palette($flb-red, 500, 100, 800);
