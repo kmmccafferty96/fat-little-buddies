@@ -22,8 +22,14 @@
             {{ item.label }}
           </button>
         </span>
-        <button mat-button mat-stroked-button color="accent">
+        <button mat-stroked-button class="nav-button" color="accent">
           Order Now
+        </button>
+        <button mat-icon-button routerLink="" class="d-none d-sm-inline">
+          <fa-icon [icon]="['fab', 'facebook']"></fa-icon>
+        </button>
+        <button mat-icon-button routerLink="" class="d-none d-sm-inline">
+          <fa-icon [icon]="['fab', 'twitter']"></fa-icon>
         </button>
       </mat-toolbar>
       <router-outlet></router-outlet>
