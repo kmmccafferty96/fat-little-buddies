@@ -1,8 +1,8 @@
 // Material
-@import '~@angular/material/theming';
-@include mat-core();
+@include mat.core();
 
 // Bootstrap
+@use '~@angular/material' as mat;
 @import '~bootstrap/scss/bootstrap-reboot';
 @import '~bootstrap/scss/bootstrap-grid';
 
@@ -17,7 +17,7 @@
 }
 
 .default-theme {
-  @include angular-material-theme($flb-theme);
+  @include mat.all-component-themes($flb-theme);
   @include custom-components-theme($flb-theme);
 }
 
