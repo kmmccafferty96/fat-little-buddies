@@ -8,7 +8,6 @@ import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg
 
 @NgModule({
   declarations: [],
-  imports: [MatSidenavModule, MatToolbarModule, MatButtonModule, FontAwesomeModule],
   exports: [MatSidenavModule, MatToolbarModule, MatButtonModule, FontAwesomeModule]
 })
 export class CoreModule {
