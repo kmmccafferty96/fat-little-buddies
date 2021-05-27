@@ -2,9 +2,10 @@
 @use '~@angular/material' as mat;
 @include mat.core();
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap-reboot';
-@import '~bootstrap/scss/bootstrap-grid';
+// Tailwind
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 // Custom themes
 @import './themes/default-theme';
