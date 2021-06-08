@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
+  selector: 'flb-location',
   templateUrl: './location.view.html',
   styleUrls: ['./location.view.scss']
 })
-// tslint:disable-next-line: component-class-suffix
 export class LocationView {}

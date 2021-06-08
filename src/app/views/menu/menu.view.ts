@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
+  selector: 'flb-menu',
   templateUrl: './menu.view.html',
   styleUrls: ['./menu.view.scss']
 })
-// tslint:disable-next-line: component-class-suffix
 export class MenuView {}

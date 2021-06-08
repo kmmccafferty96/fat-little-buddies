@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
+  selector: 'flb-home',
   templateUrl: './home.view.html',
   styleUrls: ['./home.view.scss']
 })
-// tslint:disable-next-line: component-class-suffix
 export class HomeView {}
