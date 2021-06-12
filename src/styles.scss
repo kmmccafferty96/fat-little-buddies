@@ -12,9 +12,13 @@
 
 // Component themes
 @import './app/app.component.scss-theme';
+@import './app/views/home/home.component.scss-theme.scss';
+@import './app/views/home/components/carousel/carousel.component.scss-theme.scss';
 
 @mixin custom-components-theme($theme) {
   @include flb-app-component-theme($theme);
+  @include flb-home-component-theme($theme);
+  @include flb-carousel-component-theme($theme);
 }
 
 .default-theme {

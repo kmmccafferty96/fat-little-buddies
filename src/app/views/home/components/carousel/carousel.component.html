@@ -1,0 +1,19 @@
+<div #carousel class="carousel">
+  <div *ngFor="let item of items" class="carousel__cell">
+    <div class="carousel__container flex flex-col justify-center items-center">
+      <div class="carousel__image" [attr.data-flickity-bg-lazyload]="item.imgSrc"></div>
+      <div class="carousel__main absolute text-center">
+        <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase">{{ item.title }}</h1>
+        <p class="text-sm sm:text-base md:text-lg lg:text-xl">{{ item.description }}</p>
+        <button
+          mat-raised-button
+          color="accent"
+          class="carousel__action-btn uppercase"
+          (click)="navigate(item.buttonUrl)"
+        >
+          {{ item.buttonText }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
