@@ -1,4 +1,5 @@
 @use '~@angular/material' as mat;
+
 $flb-red: (
   50: #f3e0e0,
   100: #e0b3b3,
@@ -69,4 +70,17 @@ $flb-primary: mat.define-palette($flb-red, 800, 300, 900);
 $flb-accent: mat.define-palette($flb-yellow, 500);
 $flb-warn: mat.define-palette(mat.$pink-palette, 600);
 
-$flb-theme: mat.define-light-theme($flb-primary, $flb-accent, $flb-warn);
+$flb-typography: mat.define-typography-config(
+  $font-family: '"Francois One", "Helvetica Neue", sans-serif;'
+);
+
+$flb-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $flb-primary,
+      accent: $flb-accent,
+      warn: $flb-warn
+    ),
+    typography: $flb-typography
+  )
+);

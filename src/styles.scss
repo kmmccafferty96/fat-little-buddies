@@ -1,6 +1,13 @@
 // Material
 @use '~@angular/material' as mat;
-@include mat.core();
+
+@use './styles.scss-theme' as global;
+
+// Component themes
+@use './app/app.component.scss-theme' as app;
+@use './app/views/home/home.view.scss-theme' as home;
+@use './app/views/menu/menu.view.scss-theme' as menu;
+@use './app/views/home/components/carousel/carousel.component.scss-theme' as carousel;
 
 // Tailwind
 @import 'tailwindcss/base';
@@ -10,21 +17,25 @@
 // Custom themes
 @import './themes/default-theme';
 
-// Component themes
-@import './app/app.component.scss-theme';
-@import './app/views/home/home.component.scss-theme.scss';
-@import './app/views/home/components/carousel/carousel.component.scss-theme.scss';
+@include mat.core($flb-theme);
+
+@mixin material-components-theme($theme) {
+  @include mat.button-theme($theme);
+  @include mat.toolbar-theme($theme);
+  @include mat.divider-theme($theme);
+  @include mat.sidenav-theme($theme);
+}
 
 @mixin custom-components-theme($theme) {
-  @include flb-app-component-theme($theme);
-  @include flb-home-component-theme($theme);
-  @include flb-carousel-component-theme($theme);
+  @include global.theme($theme);
+  @include app.theme($theme);
+  @include home.theme($theme);
+  @include menu.theme($theme);
+  @include carousel.theme($theme);
 }
 
-.default-theme {
-  @include mat.all-component-themes($flb-theme);
-  @include custom-components-theme($flb-theme);
-}
+@include material-components-theme($flb-theme);
+@include custom-components-theme($flb-theme);
 
 html,
 body {
@@ -32,5 +43,10 @@ body {
 }
 body {
   margin: 0;
-  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+.view-wrapper {
+  padding: 2.5rem 0;
+}
+h1.view-header {
+  @apply text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase text-center;
 }

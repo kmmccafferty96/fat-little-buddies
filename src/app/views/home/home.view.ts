@@ -17,21 +17,21 @@ export class HomeView {
       imgSrc: 'assets/wings.jpg'
     },
     {
-      title: 'Buffetfest',
+      title: 'Fat Little Buffet Fest',
       description: `Here is the description. It's a good description.`,
       buttonText: 'Buy Tickets',
       buttonUrl: 'events',
       imgSrc: 'assets/parrot.jpg'
     },
     {
-      title: 'Buffetfest',
+      title: 'Fat Little Buffet Fest',
       description: `Here is the description. It's a good description.`,
       buttonText: 'Buy Tickets',
       buttonUrl: 'events',
       imgSrc: 'assets/parrot2.jpg'
     },
     {
-      title: 'Buffetfest',
+      title: 'Fat Little Buffet Fest',
       description: `Here is the description. It's a good description.`,
       buttonText: 'Buy Tickets',
       buttonUrl: 'events',
