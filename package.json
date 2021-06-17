@@ -1,0 +1,69 @@
+{
+  "name": "fat-little-buddies",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "NODE_ENV=production ng build",
+    "watch": "ng build --watch --configuration development",
+    "ci": "echo 'Not Implemented'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^12.0.4",
+    "@angular/cdk": "^12.0.5",
+    "@angular/common": "^12.0.4",
+    "@angular/compiler": "^12.0.4",
+    "@angular/core": "^12.0.4",
+    "@angular/fire": "^6.1.5",
+    "@angular/forms": "^12.0.4",
+    "@angular/material": "^12.0.5",
+    "@angular/platform-browser": "^12.0.4",
+    "@angular/platform-browser-dynamic": "^12.0.4",
+    "@angular/router": "^12.0.4",
+    "@fortawesome/angular-fontawesome": "^0.9.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "flickity": "^2.2.2",
+    "flickity-bg-lazyload": "^1.0.1",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4",
+    "firebase": "^7.0 || ^8.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^12.0.4",
+    "@angular/cli": "^12.0.4",
+    "@angular/compiler-cli": "^12.0.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@types/flickity": "^2.2.4",
+    "@types/node": "^12.20.15",
+    "autoprefixer": "^10.2.6",
+    "commitlint": "^12.1.4",
+    "husky": "^4.2.5",
+    "postcss": "^8.3.4",
+    "prettier": "^2.3.1",
+    "pretty-quick": "^3.1.0",
+    "tailwindcss": "^2.1.4",
+    "typescript": "~4.2.4",
+    "@angular-devkit/architect": ">= 0.900 < 0.1300",
+    "firebase-tools": "^8.0.0 || ^9.0.0",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^6.2.2",
+    "inquirer-autocomplete-prompt": "^1.0.1",
+    "open": "^7.0.3",
+    "jsonc-parser": "^3.0.0"
+  }
+}

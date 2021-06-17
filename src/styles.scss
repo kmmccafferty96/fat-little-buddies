@@ -1,0 +1,54 @@
+// Material
+@use '~@angular/material' as mat;
+
+@use './styles.scss-theme' as global;
+
+// Component themes
+@use './app/app.component.scss-theme' as app;
+@use './app/views/home/home.view.scss-theme' as home;
+@use './app/views/menu/menu.view.scss-theme' as menu;
+@use './app/views/home/components/carousel/carousel.component.scss-theme' as carousel;
+
+// Tailwind
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+// Custom themes
+@import './themes/default-theme';
+
+@include mat.core($flb-theme);
+
+@mixin material-components-theme($theme) {
+  @include mat.core-theme($theme);
+  @include mat.button-theme($theme);
+  @include mat.toolbar-theme($theme);
+  @include mat.divider-theme($theme);
+  @include mat.sidenav-theme($theme);
+  @include mat.list-theme($theme);
+}
+
+@mixin custom-components-theme($theme) {
+  @include global.theme($theme);
+  @include app.theme($theme);
+  @include home.theme($theme);
+  @include menu.theme($theme);
+  @include carousel.theme($theme);
+}
+
+@include material-components-theme($flb-theme);
+@include custom-components-theme($flb-theme);
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+.view-wrapper {
+  padding: 2.5rem 0;
+}
+h1.view-header {
+  @apply text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase text-center;
+}

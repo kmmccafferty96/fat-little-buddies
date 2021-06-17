@@ -1,0 +1,24 @@
+<div class="view-wrapper menu">
+  <h1 class="view-header">Menu</h1>
+  <div class="m-auto max-w-95pct lg:max-w-62rem">
+    <div class="text-right mb-4">
+      <a mat-flat-button color="primary" href="/assets/FLB_Menu.pdf" target="_blank">Open PDF Menu</a>
+    </div>
+    <div class="menu__background m-auto rounded-xl shadow-md p-8 pt-10 pb-10 w-full">
+      <div *ngFor="let category of menu; let i = index" class="max-w-screen-md m-auto">
+        <div class="menu__category-header mb-8 text-3xl uppercase text-center">{{category.title}}</div>
+        <div *ngIf="category.description" class="menu__category-description mb-8 mat-body text-center">
+          {{category.description}}
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-14 gap-y-8 max-w-25rem md:max-w-full m-auto">
+          <div *ngFor="let item of category.items" class="text-lg font-bold">
+            <div class="float-right ml-4">{{item.price}}</div>
+            <div class="uppercase">{{item.title}}</div>
+            <div class="mat-body">{{item.description}}</div>
+          </div>
+        </div>
+        <mat-divider *ngIf="i !== menu.length - 1" class="mt-8 mb-8"></mat-divider>
+      </div>
+    </div>
+  </div>
+</div>
