@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "fat-little-buddies"
+  },
+  "targets": {
+    "fat-little-buddies": {
+      "hosting": {
+        "fat-little-buddies": [
+          "fat-little-buddies"
+        ]
+      }
+    }
+  }
+}
