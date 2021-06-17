@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "NODE_ENV=production ng build",
+    "deploy": "NODE_ENV=production ng deploy",
     "watch": "ng build --watch --configuration development",
     "ci": "echo 'Not Implemented'"
   },

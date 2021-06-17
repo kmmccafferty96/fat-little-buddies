@@ -3,7 +3,7 @@ module.exports = {
   important: true,
   purge: {
     enabled: process.env.NODE_ENV === 'production',
-    content: ['./src/**/*.{html,ts}']
+    content: ['./src/**/*.{html,ts,scss}']
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -22,7 +22,6 @@ module.exports = {
     extend: {}
   },
   plugins: [],
-  purge: ['src/**/*.html', 'src/**/*.scss', 'src/**/*.ts'],
   experimental: {
     applyComplexClasses: true
   }
