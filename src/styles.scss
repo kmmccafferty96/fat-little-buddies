@@ -17,7 +17,7 @@
 // Custom themes
 @import './themes/default-theme';
 
-@include mat.core($flb-theme);
+@include mat.core(mat.get-typography-config($flb-theme));
 
 @mixin material-components-theme($theme) {
   @include mat.core-theme($theme);

@@ -22,6 +22,7 @@ module.exports = {
     extend: {}
   },
   plugins: [],
+  purge: ['src/**/*.html', 'src/**/*.scss', 'src/**/*.ts'],
   experimental: {
     applyComplexClasses: true
   }
