@@ -19,6 +19,7 @@
     }
 
     mat-sidenav {
+      color: mat.get-color-from-palette($primary-palette, default-contrast) !important;
       background-color: mat.get-color-from-palette($primary-palette) !important;
 
       .mat-list-item {
