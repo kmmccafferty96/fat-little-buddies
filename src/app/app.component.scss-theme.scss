@@ -17,6 +17,24 @@
         }
       }
     }
+
+    mat-sidenav {
+      background-color: mat.get-color-from-palette($primary-palette) !important;
+
+      .mat-list-item {
+        color: mat.get-color-from-palette($primary-palette, default-contrast) !important;
+
+        &.active {
+          color: mat.get-color-from-palette($accent-palette, default-contrast) !important;
+          background-color: mat.get-color-from-palette($accent-palette) !important;
+
+          &:hover {
+            background-color: mat.get-color-from-palette($accent-palette, darker) !important;
+          }
+        }
+      }
+    }
+
     .footer {
       color: mat.get-color-from-palette($primary-palette, lighter);
       background-color: mat.get-color-from-palette($primary-palette, darker);

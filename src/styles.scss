@@ -20,10 +20,12 @@
 @include mat.core($flb-theme);
 
 @mixin material-components-theme($theme) {
+  @include mat.core-theme($theme);
   @include mat.button-theme($theme);
   @include mat.toolbar-theme($theme);
   @include mat.divider-theme($theme);
   @include mat.sidenav-theme($theme);
+  @include mat.list-theme($theme);
 }
 
 @mixin custom-components-theme($theme) {

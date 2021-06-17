@@ -64,4 +64,16 @@
       }
     }
   }
+
+  mat-sidenav {
+    width: 15.625rem;
+
+    .mat-nav-list {
+      padding-top: 0;
+
+      ::ng-deep.mat-list-item-content {
+        justify-content: center;
+      }
+    }
+  }
 }
