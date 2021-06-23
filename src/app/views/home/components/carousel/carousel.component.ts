@@ -1,6 +1,6 @@
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-const Flickity = require('flickity-bg-lazyload');
+import * as Flickity from 'flickity';
 
 export interface CarouselItem {
   title: string;
@@ -32,12 +32,13 @@ export class CarouselComponent implements AfterViewInit {
 
   private initializeFlickity(): void {
     new Flickity(this.carousel?.nativeElement, {
+      setGallerySize: false,
+      adaptiveHeight: true,
+      cellAlign: 'left',
       wrapAround: true,
       autoPlay: 5000,
-      bgLazyLoad: 1,
       pauseAutoPlayOnHover: true,
-      cellSelector: '.carousel__cell',
-      imagesLoaded: true
+      cellSelector: '.carousel__cell'
     });
   }
 }
