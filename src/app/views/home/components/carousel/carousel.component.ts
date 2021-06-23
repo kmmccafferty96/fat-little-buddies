@@ -38,6 +38,7 @@ export class CarouselComponent implements AfterViewInit {
       wrapAround: true,
       autoPlay: 5000,
       pauseAutoPlayOnHover: true,
+      draggable: false,
       cellSelector: '.carousel__cell'
     });
   }
