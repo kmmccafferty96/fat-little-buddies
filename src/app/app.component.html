@@ -75,22 +75,40 @@
       <div class="content-wrapper">
         <router-outlet></router-outlet>
       </div>
-      <div class="footer">
-        <div class="row">
-          <div class="links">
-            <a
-              href="https://www.facebook.com/pages/category/Pub/FAT-LITTLE-BUDDIES-TAVERN-274500873415/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <fa-icon [icon]="['fab', 'facebook']"></fa-icon>
-            </a>
-            <a href="https://twitter.com/fatlittlebudies" target="_blank" rel="noopener noreferrer">
-              <fa-icon [icon]="['fab', 'twitter']"></fa-icon>
-            </a>
+      <footer>
+        <div class="footer">
+          <div class="row">
+            <div class="links">
+              <a
+                href="https://www.facebook.com/pages/category/Pub/FAT-LITTLE-BUDDIES-TAVERN-274500873415/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <fa-icon [icon]="['fab', 'facebook']"></fa-icon>
+              </a>
+              <a href="https://twitter.com/fatlittlebudies" target="_blank" rel="noopener noreferrer">
+                <fa-icon [icon]="['fab', 'twitter']"></fa-icon>
+              </a>
+            </div>
+          </div>
+          <div class="row flex flex-row justify-around w-">
+            <div>
+              <h4 class="font-bold">Location</h4>
+              <a href="https://goo.gl/maps/yYfJyrGbdsLMtLyR6" rel="noopener" target="_blank">
+                <span class="block">Fat Little Buddies</span>
+                <span class="block">26906 Cook Rd</span>
+                <span class="block">Olmsted Township, OH 44138</span>
+              </a>
+              <a href="tel:4402351338">
+                <span>(440) 235-1338</span>
+              </a>
+            </div>
+            <div>
+              <img [src]="logo" alt="Fat Little Buddies Logo" />
+            </div>
           </div>
         </div>
-      </div>
+      </footer>
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
