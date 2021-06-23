@@ -4,7 +4,7 @@
     <div class="text-right mb-4">
       <a mat-flat-button color="primary" href="/assets/FLB_Menu.pdf" target="_blank">Open PDF Menu</a>
     </div>
-    <div class="menu__background m-auto rounded-xl shadow-md p-8 pt-10 pb-10 w-full">
+    <div class="menu__background m-auto rounded-xl shadow-md px-8 py-10 w-full">
       <div *ngFor="let category of menu; let i = index" class="max-w-screen-md m-auto">
         <div class="menu__category-header mb-8 text-3xl uppercase text-center">{{category.title}}</div>
         <div *ngIf="category.description" class="menu__category-description mb-8 mat-body text-center">

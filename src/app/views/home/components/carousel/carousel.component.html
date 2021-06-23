@@ -2,7 +2,7 @@
   <div *ngFor="let item of items" class="carousel__cell">
     <div class="carousel__container flex flex-col justify-center items-center">
       <div class="carousel__image" [ngStyle]="{ 'background-image': 'url(' + item.imgSrc + ')' }"></div>
-      <div class="carousel__main absolute text-center">
+      <div class="carousel__main absolute text-center px-10 md:px-16">
         <h1 class="mat-headline text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase">{{ item.title }}</h1>
         <p class="mat-subheading-2 text-sm sm:text-base md:text-lg lg:text-xl">{{ item.description }}</p>
         <button

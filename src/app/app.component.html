@@ -91,20 +91,22 @@
               </a>
             </div>
           </div>
-          <div class="row flex flex-row justify-around w-">
-            <div>
-              <h4 class="font-bold">Location</h4>
-              <a href="https://goo.gl/maps/yYfJyrGbdsLMtLyR6" rel="noopener" target="_blank">
-                <span class="block">Fat Little Buddies</span>
-                <span class="block">26906 Cook Rd</span>
-                <span class="block">Olmsted Township, OH 44138</span>
-              </a>
-              <a href="tel:4402351338">
-                <span>(440) 235-1338</span>
-              </a>
-            </div>
-            <div>
-              <img [src]="logo" alt="Fat Little Buddies Logo" />
+          <div class="flex justify-center">
+            <div class="row flex-grow flex flex-row justify-around flex-wrap-reverse max-w-2xl">
+              <div class="footer__location row flex flex-col align-center justify-center">
+                <h3 class="font-extrabold uppercase">Location</h3>
+                <a href="https://goo.gl/maps/yYfJyrGbdsLMtLyR6" rel="noopener" target="_blank">
+                  <span class="block">Fat Little Buddies</span>
+                  <span class="block">26906 Cook Rd</span>
+                  <span class="block">Olmsted Township, OH 44138</span>
+                </a>
+                <a href="tel:4402351338">
+                  <span>(440) 235-1338</span>
+                </a>
+              </div>
+              <div class="flex flex-col row align-center justify-center">
+                <img [src]="logo" alt="Fat Little Buddies Logo" class="w-48" />
+              </div>
             </div>
           </div>
         </div>

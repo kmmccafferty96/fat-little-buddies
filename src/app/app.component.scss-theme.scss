@@ -49,6 +49,10 @@
           }
         }
       }
+
+      &__location {
+        color: mat.get-color-from-palette($primary-palette, default-contrast);
+      }
     }
   }
 }

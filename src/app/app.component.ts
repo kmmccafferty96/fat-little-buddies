@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  logo = '../../assets/logo.png';
+  logo = '../../assets/FLB_Logo.svg';
   navigation = [
     { link: 'home', label: 'Home' },
     { link: 'menu', label: 'Menu' },
