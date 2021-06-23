@@ -35,13 +35,13 @@
     </mat-sidenav>
     <mat-sidenav-content>
       <mat-toolbar class="mat-elevation-z4" color="primary">
-        <button mat-icon-button class="md:hidden" (click)="sidenav.open()">
+        <button mat-icon-button class="sm:hidden" (click)="sidenav.open()">
           <fa-icon icon="bars"></fa-icon>
         </button>
         <span routerLink="" class="logo">
           <img [src]="logo" alt="Fat Little Buddies Logo" />
         </span>
-        <span class="hidden md:inline">
+        <span class="hidden sm:inline">
           <button
             mat-button
             class="nav-button"
@@ -52,7 +52,7 @@
             {{ item.label }}
           </button>
         </span>
-        <button mat-stroked-button class="nav-button" color="accent">Order Now</button>
+        <button style="display: none" mat-stroked-button class="nav-button" color="accent">Order Now</button>
         <a
           mat-icon-button
           class="hidden sm:inline"
@@ -76,19 +76,17 @@
         <router-outlet></router-outlet>
       </div>
       <div class="footer">
-        <div class="grid">
-          <div class="social-links">
+        <div class="row">
+          <div class="links">
             <a
               href="https://www.facebook.com/pages/category/Pub/FAT-LITTLE-BUDDIES-TAVERN-274500873415/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <fa-icon [icon]="['fab', 'facebook']"></fa-icon>
-              <span>Facebook</span>
             </a>
             <a href="https://twitter.com/fatlittlebudies" target="_blank" rel="noopener noreferrer">
               <fa-icon [icon]="['fab', 'twitter']"></fa-icon>
-              <span>Twitter</span>
             </a>
           </div>
         </div>
