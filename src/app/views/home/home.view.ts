@@ -13,27 +13,27 @@ export class HomeView {
   carouselItems: CarouselItem[] = [
     {
       title: 'Fat Little Buffett Fest',
-      description: `Here is the description. It's a good description.`,
+      description: `Our outdoor music festival is coming August 7th!`,
       buttonText: 'Buy Tickets',
       buttonUrl: 'https://www.eventbrite.com/e/3rd-4th-annual-fat-little-buffett-fest-tickets-161028286941',
       isExternalUrl: true,
-      imgSrc: 'assets/parrot2.jpg'
+      imgSrc: 'assets/carousel/parrot3.jpg'
     },
     {
       title: 'Fat Little 5K',
-      description: `Here is the description. It's a good description.`,
+      description: `Join us July 31st for our 11th Annual Fat Little 5K and 1 Mile Walk. ALL proceeds benefit the Alzheimer's Association.`,
       buttonText: 'Sign Up',
       buttonUrl: 'https://www.runsignup.com/FatLittle5K',
       isExternalUrl: true,
-      imgSrc: 'assets/parrot.jpg'
+      imgSrc: 'assets/carousel/5k.jpg'
     },
     {
       title: 'Great Food',
-      description: `Here is the description. It's a good description.`,
+      description: `Fat Little Buddies has the best food in town!`,
       buttonText: 'View Menu',
       buttonUrl: 'menu',
       isExternalUrl: false,
-      imgSrc: 'assets/wings.jpg'
+      imgSrc: 'assets/carousel/wings.jpg'
     }
   ];
 

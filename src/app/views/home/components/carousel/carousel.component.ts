@@ -33,14 +33,12 @@ export class CarouselComponent implements AfterViewInit {
 
   private initializeFlickity(): void {
     new Flickity(this.carousel?.nativeElement, {
+      cellSelector: '.carousel__cell',
       setGallerySize: false,
-      adaptiveHeight: true,
-      cellAlign: 'left',
       wrapAround: true,
-      autoPlay: 5000,
+      autoPlay: 3500,
       pauseAutoPlayOnHover: false,
-      draggable: false,
-      cellSelector: '.carousel__cell'
+      draggable: true
     });
   }
 }
