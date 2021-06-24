@@ -165,7 +165,7 @@ export class MenuView {
     },
     {
       title: `Burgers`,
-      description: `Comes with chips`,
+      description: `All burgers come with chips`,
       items: [
         {
           title: `FLB`,
@@ -184,13 +184,99 @@ export class MenuView {
     },
     {
       title: `Chicken`,
-      description: `Comes with chips`,
+      description: `All sandwiches come with chips`,
       items: [
         { title: `Uncle Pat's`, description: `Grilled Chicken, lettuce, and tomato on a Broiche Bun`, price: 9 },
         { title: `Bacon Swiss`, description: `Add Bacon, Swiss, and Mayo`, price: 10 },
         { title: `Buffalo Blue`, description: `Add Mild Buffalo, Provolone, and Blue Cheese`, price: 10 },
         { title: `Club`, description: `Add Bacon, Swiss, and Mayo`, price: 10 },
         { title: `Cajun`, description: `Add Cajun, Pepper Jack, and Ranch`, price: 10 }
+      ]
+    },
+    {
+      title: `Wraps`,
+      description: `All wraps come with chips`,
+      items: [
+        { title: `BLT`, description: `Bacon, Lettuce, Tomato, and Mayo`, price: 8 },
+        {
+          title: `Veggie`,
+          description: `Saut&eacute;ed Mushrooms, Onion and Peppers, Lettuce, Tomato, and Jack Cheddar`,
+          price: 8
+        },
+        {
+          title: `Buffalo Chicken`,
+          description: `Mild Buffalo Tossed Grilled or Fried Chicken, Lettuce, Tomato, and Jack Cheddar`,
+          price: 10
+        },
+        {
+          title: `BBQ Chicken`,
+          description: `BBQ Tossed Grilled or Fried Chicken, Lettuce, Tomato, and Jack Cheddar`,
+          price: 10
+        },
+        {
+          title: `Chicken Caesar`,
+          description: `Grilled or Fried Chicken, Lettuce, Tomato, and Parmesan Cheese`,
+          price: 10
+        },
+        {
+          title: `Chicken Parm`,
+          description: `Grilled or Fried Chicken, Provolone, Marinara, and Parmesan`,
+          price: 10
+        },
+        {
+          title: `Chicken Ranch`,
+          description: `Grilled or Fried Chicken, Bacon, Lettuce, Tomato, Ranch, and Jack Cheddar`,
+          price: 10
+        },
+        {
+          title: `Buffalo Blue Chicken`,
+          description: `Grilled or Fried Chicken, Lettuce, Tomato, Hot Ranch, and Blue Cheese`,
+          price: 10
+        }
+      ]
+    },
+    {
+      title: `Sandwiches`,
+      description: `All sandwiches come with chips`,
+      items: [
+        { title: `BLT`, description: `White Bread, Bacon, Lettuce, Tomato, and Mayo`, price: 7 },
+        { title: `Polish Boy`, description: `Hoagie Bun, Sausage French Fries, Cole Slaw, and BBQ Sauce`, price: 7 },
+        { title: `Colleen's Yumbos (2)`, description: `Ham, Swiss, and Colleen's Poppyseed Sauce`, price: 8 },
+        { title: `TFO`, description: `Rye Bread, Guinness cooked Corned Beef, Swiss, Toasted`, price: 9 },
+        { title: `Midge's Reuben`, description: `TFO add Sauerkraut and Thousand Island`, price: 10 },
+        {
+          title: `Sparky's Steak Philly`,
+          description: `Hoagie Bun, Mushrooms, Onions, Peppers, and Mozzarella`,
+          price: 10
+        },
+        {
+          title: `Betty's Chicken Philly`,
+          description: `Hoagie Bun, Mushrooms, Onions, Peppers, and Mozzarella`,
+          price: 10
+        },
+        { title: `Big Chuck Sausage`, description: `Hoagie Bun, Mozzarella, and Gallucci's Marinara`, price: 9 },
+        { title: `Perch`, description: `Hoagie Bun, Lightly Breaded, Fried Perch, and Tartar Sauce`, price: 10 },
+        { title: `Cod`, description: `Brioche Bun, Baked Cod, and Tarter Sauce`, price: 10 },
+        { title: `Naughten's Meatball`, description: `Hoagie Bun, Mozzarella, and Gallucci's Marinara`, price: 9 },
+        {
+          title: `Russell The Muscle`,
+          description: `White Bread, American, Swiss, Pepper Jack, Bacon, Tomato, and a Fried Egg`,
+          price: 9
+        },
+        { title: `Pulled Pork`, description: `Brioche Bun, Pulled Pork, and Jack Cheddar`, price: 9 },
+        { title: `Mac -n- Cheese`, description: `White Bread, American Cheese, and Mac-n-cheese, Bites`, price: 8 },
+        { title: `Grilled Cheese`, description: `Hoagie Bun, Mushrooms, Onions, Peppers, and Mozzarella`, price: 6 }
+      ]
+    },
+    {
+      title: `Entrees`,
+      description: `All entrees come with a choice of side, cole slaw, roll, and butter`,
+      items: [
+        { title: `Sirloin`, description: `8 oz`, price: 12 },
+        { title: `Strip`, description: `10 oz`, price: 16 },
+        { title: `Perch`, description: `Lightly Breaded, Fried Perch, and Tarter Sauce`, price: 14 },
+        { title: `Cod`, description: `Baked Cod and Tarter Sauce`, price: 14 },
+        { title: `BBQ Chicken`, price: 12 }
       ]
     }
   ];

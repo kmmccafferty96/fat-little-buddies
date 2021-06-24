@@ -7,6 +7,7 @@
 @use './app/app.component.scss-theme' as app;
 @use './app/views/home/home.view.scss-theme' as home;
 @use './app/views/menu/menu.view.scss-theme' as menu;
+@use './app/views/events/events.view.scss-theme' as events;
 @use './app/views/home/components/carousel/carousel.component.scss-theme' as carousel;
 
 // Tailwind
@@ -33,6 +34,7 @@
   @include app.theme($theme);
   @include home.theme($theme);
   @include menu.theme($theme);
+  @include events.theme($theme);
   @include carousel.theme($theme);
 }
 
