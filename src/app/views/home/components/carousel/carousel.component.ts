@@ -38,7 +38,7 @@ export class CarouselComponent implements AfterViewInit {
       cellAlign: 'left',
       wrapAround: true,
       autoPlay: 5000,
-      pauseAutoPlayOnHover: true,
+      pauseAutoPlayOnHover: false,
       draggable: false,
       cellSelector: '.carousel__cell'
     });
