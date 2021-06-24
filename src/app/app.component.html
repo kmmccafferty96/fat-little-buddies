@@ -38,9 +38,10 @@
         <button mat-icon-button class="sm:hidden" (click)="sidenav.open()">
           <fa-icon icon="bars"></fa-icon>
         </button>
-        <span routerLink="" class="logo">
-          <img [src]="logo" alt="Fat Little Buddies Logo" />
+        <span class="logo flex justify-center sm:inline-block">
+          <img [src]="logo" alt="Fat Little Buddies Logo" routerLink="" class="cursor-pointer" />
         </span>
+        <span class="sm:hidden w-10">&nbsp;</span>
         <span class="hidden sm:inline">
           <button
             mat-button

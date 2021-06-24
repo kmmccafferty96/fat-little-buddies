@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+
+import { FAT_LITTLE_BUDDIES_TITLE } from '../../app.component';
 
 export interface MenuCategory {
   title: string;
@@ -191,4 +194,8 @@ export class MenuView {
       ]
     }
   ];
+
+  constructor(private _titleService: Title) {
+    this._titleService.setTitle(`Menu - ${FAT_LITTLE_BUDDIES_TITLE}`);
+  }
 }

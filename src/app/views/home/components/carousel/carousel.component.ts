@@ -7,6 +7,7 @@ export interface CarouselItem {
   description: string;
   buttonText: string;
   buttonUrl: string;
+  isExternalUrl: boolean;
   imgSrc: string;
 }
 

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+export const FAT_LITTLE_BUDDIES_TITLE = 'Fat Little Buddies Tavern - Olmsted Falls, OH';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
