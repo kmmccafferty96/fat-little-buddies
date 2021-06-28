@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatSidenavContent } from '@angular/material/sidenav';
 import { NavigationEnd, Router } from '@angular/router';
 
-export const FAT_LITTLE_BUDDIES_TITLE = 'Fat Little Buddies Tavern - Olmsted Falls, OH';
+export const FAT_LITTLE_BUDDIES_TITLE = 'Fat Little Buddies Tavern - Olmsted Township, OH';
 
 @Component({
   selector: 'app-root',
