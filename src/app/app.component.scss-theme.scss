@@ -36,22 +36,26 @@
       }
     }
 
-    .footer {
-      color: mat.get-color-from-palette($primary-palette, lighter);
-      background-color: mat.get-color-from-palette($primary-palette, darker);
+    mat-sidenav-content {
+      background-color: mat.get-color-from-palette($primary-palette, 100);
 
-      .social-links,
-      .signature {
-        a {
-          color: mat.get-color-from-palette($primary-palette, lighter);
-          &:hover {
-            color: mat.get-color-from-palette($accent-palette);
+      .footer {
+        color: mat.get-color-from-palette($primary-palette, lighter);
+        background-color: mat.get-color-from-palette($primary-palette, darker);
+
+        .social-links,
+        .signature {
+          a {
+            color: mat.get-color-from-palette($primary-palette, lighter);
+            &:hover {
+              color: mat.get-color-from-palette($accent-palette);
+            }
           }
         }
-      }
 
-      &__location {
-        color: mat.get-color-from-palette($primary-palette, default-contrast);
+        &__location {
+          color: mat.get-color-from-palette($primary-palette, default-contrast);
+        }
       }
     }
   }

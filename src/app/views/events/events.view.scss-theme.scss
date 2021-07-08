@@ -11,7 +11,7 @@
   flb-events {
     .events {
       &__event {
-        background-color: mat.get-color-from-palette($primary-palette, 100);
+        background-color: mat.get-color-from-palette($primary-palette, default-contrast);
         color: mat.get-color-from-palette($primary-palette);
       }
 
