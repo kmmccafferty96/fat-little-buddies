@@ -24,11 +24,12 @@
       <div class="text-center space-y-2 sm:text-left">
         <div class="space-y-0.5">
           <p class="text-2xl font-semibold mb-0">{{ event.title }}</p>
-          <p class="text-lg font-semibold pb-3">{{ event.date | date:'EEEE, MMMM d, y, h:mm a' }}</p>
+          <p class="text-lg font-semibold pb-3">{{ event.date | date:'EEEE, MMMM d, y - h:mm a' }}</p>
           <p class="event__description mat-body-1 font-medium pb-3">{{ event.description }}</p>
         </div>
         <a
           mat-raised-button
+          *ngIf="event.buttonText"
           color="primary"
           class="uppercase"
           [href]="event.buttonUrl"

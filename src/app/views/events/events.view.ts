@@ -6,8 +6,8 @@ import { FAT_LITTLE_BUDDIES_TITLE } from '../../app.component';
 export interface Event {
   title: string;
   description?: string;
-  buttonText: string;
-  buttonUrl: string;
+  buttonText?: string;
+  buttonUrl?: string;
   imgSrc?: string;
   date: Date;
 }
@@ -20,13 +20,13 @@ export interface Event {
 export class EventsView {
   events: Event[] = [
     {
-      title: `11th Annual Fat Little 5K and 1 Mile Walk`,
-      description: `Join us for our 11th Annual Fat Little 5K and 1 Mile Walk. ALL proceeds benefit the Alzheimer's Association.
-      Come for the race, stay for the party afterwards which includes live music, food and drink specials and lots of friends and family.`,
-      buttonText: `Sign Up`,
-      buttonUrl: `https://www.runsignup.com/FatLittle5K`,
-      imgSrc: `assets/events/5k.png`,
-      date: new Date('Sat Jul 31 2021 9:00:00 GMT-0400')
+      title: `10th Anniversary Party - Faith & Whiskey`,
+      description: `Woohoo!!! We have a fun weekend coming up and we want you to join the party!!!
+      It's finally time to celebrate our 10th-ANNIVERSARY PARTY
+      [after 11 and a half years- thanks COVID!]
+      Celebrations begin Friday, August 6th with our headliner Faith & Whiskey ~if you don't have one, you better have the other~`,
+      imgSrc: `assets/events/faith&whiskey.png`,
+      date: new Date('Fri Aug 6 2021 18:00:00 GMT-0400')
     },
     {
       title: `Fat Little Buffett Fest`,
@@ -37,6 +37,16 @@ export class EventsView {
       buttonUrl: `https://www.eventbrite.com/e/3rd-4th-annual-fat-little-buffett-fest-tickets-161028286941`,
       imgSrc: `assets/events/FLB_Fest.png`,
       date: new Date('Sat Aug 7 2021 14:00:00 GMT-0400')
+    },
+    {
+      title: `11th Annual Fat Little 5K and 1 Mile Walk`,
+      description: `Join us for the 11th Annual Fat Little 5K and 1 Mile Walk to benefit Olmsted Township Police & Fire Departments.
+      There will be awards, music, lunch specials, and a huge Fat Little Party after the event.
+      Come for the race, stay for the party!`,
+      buttonText: `Sign Up`,
+      buttonUrl: `https://www.runsignup.com/FatLittle5K`,
+      imgSrc: `assets/events/5k.png`,
+      date: new Date('Sat Sept 11 2021 9:00:00 GMT-0400')
     }
   ];
 
