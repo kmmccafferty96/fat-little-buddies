@@ -14,6 +14,6 @@ import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg
 })
 export class CoreModule {
   constructor(private iconLibrary: FaIconLibrary) {
-    iconLibrary.addIcons(faBars, faFacebook, faInstagram, faTwitter);
+    this.iconLibrary.addIcons(faBars, faFacebook, faInstagram, faTwitter);
   }
 }

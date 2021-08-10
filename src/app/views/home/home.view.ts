@@ -11,14 +11,14 @@ import { CarouselItem } from './components/carousel/carousel.component';
 })
 export class HomeView {
   carouselItems: CarouselItem[] = [
-    {
-      title: 'Fat Little Buffett Fest',
-      description: `Our outdoor music festival is coming August 7th!`,
-      buttonText: 'Buy Tickets',
-      buttonUrl: 'https://www.eventbrite.com/e/3rd-4th-annual-fat-little-buffett-fest-tickets-161028286941',
-      isExternalUrl: true,
-      imgSrc: 'assets/carousel/parrot3.jpg'
-    },
+    // {
+    //   title: 'Fat Little Buffett Fest',
+    //   description: `Our outdoor music festival is coming August 7th!`,
+    //   buttonText: 'Buy Tickets',
+    //   buttonUrl: 'https://www.eventbrite.com/e/3rd-4th-annual-fat-little-buffett-fest-tickets-161028286941',
+    //   isExternalUrl: true,
+    //   imgSrc: 'assets/carousel/parrot3.jpg'
+    // },
     {
       title: 'Fat Little 5K',
       description: `Join us September 11th for our 11th Annual Fat Little 5K and 1 Mile Walk. ALL proceeds benefit the Olmsted Township Police & Fire Departments.`,
