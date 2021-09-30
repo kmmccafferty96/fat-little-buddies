@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { AngularFireAnalyticsModule, ScreenTrackingService } from '@angular/fire/compat/analytics';
+import { AngularFireModule } from '@angular/fire/compat';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,11 +16,10 @@ import { environment } from '../environments/environment';
     AppRoutingModule,
     CoreModule,
     BrowserAnimationsModule,
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    AngularFireAnalyticsModule,
-    ScreenTrackingService
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAnalyticsModule
   ],
-  providers: [],
+  providers: [ScreenTrackingService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
