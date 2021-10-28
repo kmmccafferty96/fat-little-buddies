@@ -38,15 +38,24 @@ export class EventsView {
     //   imgSrc: `assets/events/FLB_Fest.png`,
     //   date: new Date('Sat Aug 7 2021 14:00:00 GMT-0400')
     // },
+    // {
+    //   title: `11th Annual Fat Little 5K and 1 Mile Walk`,
+    //   description: `Join us for the 11th Annual Fat Little 5K and 1 Mile Walk to benefit Olmsted Township Police & Fire Departments.
+    //   There will be awards, music, lunch specials, and a huge Fat Little Party after the event.
+    //   Come for the race, stay for the party!`,
+    //   buttonText: `Sign Up`,
+    //   buttonUrl: `https://www.runsignup.com/FatLittle5K`,
+    //   imgSrc: `assets/events/5k.png`,
+    //   date: new Date('Sat Sept 11 2021 9:00:00 GMT-0400')
+    // },
     {
-      title: `11th Annual Fat Little 5K and 1 Mile Walk`,
-      description: `Join us for the 11th Annual Fat Little 5K and 1 Mile Walk to benefit Olmsted Township Police & Fire Departments.
-      There will be awards, music, lunch specials, and a huge Fat Little Party after the event.
-      Come for the race, stay for the party!`,
-      buttonText: `Sign Up`,
-      buttonUrl: `https://www.runsignup.com/FatLittle5K`,
-      imgSrc: `assets/events/5k.png`,
-      date: new Date('Sat Sept 11 2021 9:00:00 GMT-0400')
+      title: `0.5k Santa Stroll 2021`,
+      description: `Join us for the 2021 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa
+      (bring the kids), live music, cash raffle, and basket raffle!`,
+      buttonText: `More Info`,
+      buttonUrl: `assets/events/Santa_Stroll_2021.pdf`,
+      imgSrc: `assets/events/Santa_Stroll.png`,
+      date: new Date('Fri Nov 26 2021 15:30:00 GMT-0400')
     }
   ];
 

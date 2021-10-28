@@ -19,14 +19,14 @@ export class HomeView {
     //   isExternalUrl: true,
     //   imgSrc: 'assets/carousel/parrot3.jpg'
     // },
-    {
-      title: 'Fat Little 5K',
-      description: `Join us September 11th for our 11th Annual Fat Little 5K and 1 Mile Walk. ALL proceeds benefit the Olmsted Township Police & Fire Departments.`,
-      buttonText: 'Sign Up',
-      buttonUrl: 'https://www.runsignup.com/FatLittle5K',
-      isExternalUrl: true,
-      imgSrc: 'assets/carousel/5k.jpg'
-    },
+    // {
+    //   title: 'Fat Little 5K',
+    //   description: `Join us September 11th for our 11th Annual Fat Little 5K and 1 Mile Walk. ALL proceeds benefit the Olmsted Township Police & Fire Departments.`,
+    //   buttonText: 'Sign Up',
+    //   buttonUrl: 'https://www.runsignup.com/FatLittle5K',
+    //   isExternalUrl: true,
+    //   imgSrc: 'assets/carousel/5k.jpg'
+    // },
     {
       title: 'Great Food',
       description: `Fat Little Buddies has the best food in town!`,
