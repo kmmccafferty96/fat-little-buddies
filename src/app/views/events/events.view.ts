@@ -52,8 +52,8 @@ export class EventsView {
       title: `0.5k Santa Stroll 2021`,
       description: `Join us for the 2021 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa
       (bring the kids), live music, cash raffle, and basket raffle!`,
-      buttonText: `More Info`,
-      buttonUrl: `assets/events/Santa_Stroll_2021.pdf`,
+      buttonText: `More Info & Registration`,
+      buttonUrl: `https://fightingforalyssa.regfox.com/ffasantastroll`,
       imgSrc: `assets/events/Santa_Stroll.png`,
       date: new Date('Fri Nov 26 2021 15:30:00 GMT-0400')
     }

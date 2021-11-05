@@ -30,8 +30,8 @@ export class HomeView {
     {
       title: 'Santa Stroll 2021',
       description: `Join us for the 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa, live music, cash raffle, and basket raffle!`,
-      buttonText: 'More Info',
-      buttonUrl: 'assets/events/Santa_Stroll_2021.pdf',
+      buttonText: 'More Info & Registration',
+      buttonUrl: 'https://fightingforalyssa.regfox.com/ffasantastroll',
       isExternalUrl: true,
       imgSrc: 'assets/carousel/Santa_Elsa.jpg'
     },
