@@ -28,6 +28,14 @@ export class HomeView {
     //   imgSrc: 'assets/carousel/5k.jpg'
     // },
     {
+      title: 'Santa Stroll 2021',
+      description: `Join us for the 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa, live music, cash raffle, and basket raffle!`,
+      buttonText: 'More Info',
+      buttonUrl: 'assets/events/Santa_Stroll_2021.pdf',
+      isExternalUrl: true,
+      imgSrc: 'assets/carousel/Santa_Elsa.jpg'
+    },
+    {
       title: 'Great Food',
       description: `Fat Little Buddies has the best food in town!`,
       buttonText: 'View Menu',
