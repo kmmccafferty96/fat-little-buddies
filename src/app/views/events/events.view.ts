@@ -55,7 +55,7 @@ export class EventsView {
       buttonText: `Info & Registration`,
       buttonUrl: `https://fightingforalyssa.regfox.com/ffasantastroll`,
       imgSrc: `assets/events/Santa_Stroll.png`,
-      date: new Date('Fri Nov 26 2021 15:30:00 GMT-0400')
+      date: new Date('Fri Nov 26 2021 16:30:00 GMT-0400')
     }
   ];
 
