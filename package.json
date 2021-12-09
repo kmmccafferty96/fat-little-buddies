@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "NODE_ENV=production ng build",
-    "deploy": "NODE_ENV=production ng deploy",
+    "build": "ng build",
+    "deploy": "ng deploy",
     "watch": "ng build --watch --configuration development",
     "ci": "echo 'Not Implemented'"
   },
@@ -39,20 +39,20 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "firebase": "^9.0.2",
     "flickity": "^2.2.2",
-    "rxjs": "7.4",
+    "rxjs": "~7.4.0",
     "tslib": "^2.3.1",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/architect": "^0.1300.1",
+    "@angular-devkit/architect": "^0.1301.0",
     "@angular-devkit/build-angular": "^13.0.1",
     "@angular/cli": "^13.0.1",
     "@angular/compiler-cli": "^13.0.0",
-    "@commitlint/config-conventional": "^14.1.0",
+    "@commitlint/config-conventional": "^15.0.0",
     "@types/flickity": "^2.2.6",
     "@types/node": "^12.20.19",
     "autoprefixer": "^10.3.1",
-    "commitlint": "^14.1.0",
+    "commitlint": "^15.0.0",
     "firebase-tools": "^9.16.5",
     "fuzzy": "^0.1.3",
     "husky": "^4.2.5",
@@ -63,7 +63,7 @@
     "postcss": "^8.3.6",
     "prettier": "^2.3.2",
     "pretty-quick": "^3.1.1",
-    "tailwindcss": "^2.2.7",
-    "typescript": "~4.4.4"
+    "tailwindcss": "^3.0.0",
+    "typescript": "~4.5.2"
   }
 }
