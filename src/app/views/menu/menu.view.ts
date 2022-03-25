@@ -23,48 +23,64 @@ export interface MenuItem {
 export class MenuView {
   menu: MenuCategory[] = [
     {
-      title: `Appetizers`,
+      title: `Starters`,
       items: [
-        { title: `Todd's Seasoned Flat Fries (Sm/Lg)`, price: '4 / 5' },
-        { title: `Tater Tots (Sm/Lg)`, price: '4 / 5' },
-        { title: `Fresh Cut Fries (Sm/Lg)`, price: '4 / 5' },
-        { title: `Fresh Onion Rings (Sm/Lg)`, price: '4 / 5' },
-        { title: `Homemade Chips (Sm/Lg)`, description: `Served with french onion dip`, price: '4 / 6' },
-        { title: `Nacho Chips`, description: `Served with choice of dip`, price: 6 },
         {
-          title: `Lauren's Sweet Potato Fries (Sm/Lg)`,
-          description: `Topped with maple cinnamon sugar & served with...`,
-          price: '5 / 7'
+          title: `Basket of Todd's Flat or Fresh Cut Fries, Onion Rings, Tater Tots, or Homemade Chips (sm/lg)`,
+          description: `Add bacon, cheddar cheese, and sour cream for $2`,
+          price: '4 / 7'
         },
-        { title: `Breaded Mushrooms`, description: `Served with ranch`, price: 6 },
-        { title: `Mozzarella Sticks`, description: `Served with marinara`, price: 6 },
-        { title: `Macaroni & Cheese Bites`, description: `Served with ranch`, price: 6 },
-        { title: `Jalapeno Poppers`, description: `Served with ranch`, price: 6 },
-        { title: `Jalapeno & Cheese Stuffed Pretzel`, description: `Served with ranch`, price: 6 },
-        { title: `Broccoli Cheddar Bites`, description: `Contains bacon flakes & served with ranch`, price: 7 },
-        { title: `Fried Green Beans`, description: `Served with Spicy Tony's Sauce`, price: 7 },
-        { title: `Chicken Fingers`, description: `Served with choice of dip`, price: 7 },
-        { title: `Panko Crusted Shrimp (6/12)`, description: `Served with Owen's Tarter Sauce`, price: '7 / 10' },
-        { title: `Deep Fried Shrimp Basket`, description: `Served with cocktail sauce`, price: 8 },
-        { title: `Potato Skins`, description: `With cheddar cheese, bacon, and sour cream`, price: 8 },
-        { title: `Bacon Cheese "Flat" Fries`, description: `Served with sour cream`, price: 8 },
-        { title: `Bacon Cheese Fresh Cut Fries`, description: `Served with sour cream`, price: 8 },
-        { title: `Bacon Cheese Tater Tots`, description: `Served with sour cream`, price: 8 },
+        { title: `Broccoli Cheddar Bites`, price: 7 },
+        { title: `Fried Green Beans`, price: 7 },
+        { title: `Panko Crusted Shrimp (sm/lg)`, price: '8 / 12' },
+        { title: `Cheese Curds`, price: 7 },
+        { title: `Potato Skins`, price: 8 },
+        { title: `Spicy Pickle Slices`, price: 7 },
+        { title: `Mozzarella Sticks`, price: 6 },
+        { title: `Jalapeno Peppers`, price: 6 },
+        { title: `Pizza Flat Fries`, price: 6 },
+        { title: `Macaroni and Cheese Bites`, price: 10 },
+        { title: `Breaded Mushrooms`, price: 6 },
+        { title: `Jalapenos & Cheese Stuffed Pretzel`, price: 6 },
+        { title: `Chicken Fingers`, description: `Choice of dip`, price: 6 },
+        { title: `Pretzel Sticks`, price: 7 },
+        { title: `Nachos`, description: `Choice of dip`, price: 7 },
         {
-          title: `Veggie Nachos`,
-          description: `With cheddar cheese, tomatoes, black olives, onion, salsa, and sour cream`,
-          price: 8
+          title: `Lauren's Sweet Potato Fries`,
+          description: `Sprinkled with cinnamon maple sugar`,
+          price: 7
         },
         {
-          title: `Beef or Chicken Nachos`,
-          description: `With cheddar cheese, tomatoes, black olives, onion, salsa, and sour cream`,
-          price: 10
-        },
-        { title: `Pizza "Flat" Fries`, description: `With Marinara, Mozzarella & Pepperoni`, price: 10 },
+          title: `Loaded Beef, Chicken, or Pork Nachos`,
+          description: `w/ cheddar cheese, tomato, black olives, salsa, and sour cream`,
+          price: 11
+        }
+      ]
+    },
+    {
+      title: `Pizza`,
+      description: `Comes in both 9" and 12"`,
+      items: [
+        { title: `Cheese`, description: `Gallucci's Marinara or FLB Sauce`, price: '8 / 11' },
         {
-          title: `Porkos Nachos`,
-          description: `With pulled pork, cheddar cheese, bacon, jalapenos, onion, and sour cream`,
-          price: 10
+          title: `BBQ Chicken`,
+          description: `Grilled Chicken, BBQ Sauce, Bacon, and Mozzarella Cheese`,
+          price: '10 / 14'
+        },
+        {
+          title: `Buffalo Chicken`,
+          description: `Grilled Chicken in Mild Buffalo, Hot Ranch, and Pepper Jack`,
+          price: '10 / 14'
+        },
+        {
+          title: `The Bulldog`,
+          description: `Pepperoni, Sausage, Mushrooms, Banana Peppers, and Mozzarella`,
+          price: '10 / 14'
+        },
+        {
+          title: `Additional Toppings`,
+          description: `Sausage, Pepperoni, Bacon, Onion, Mushroom, Peppers, Banana Peppers, Tomato, or Extra Cheese`,
+          price: '1 / 2'
         }
       ]
     },
@@ -72,100 +88,63 @@ export class MenuView {
       title: `Wings`,
       description:
         `Sauces: FLB (Hot Buffalo w/ Italian seasoning), ` +
-        `MK's Hot Buffalo, Medium Buffalo, Sear's Mild Buffalo, BBQ Jack, Hot BBQ, Carolina BBQ (Southern BBQ), ` +
+        `MK's Hot Buffalo, Sear's Mild Buffalo, BBQ Jack, Hot BBQ (Southern BBQ), ` +
         `Sweet Hot Chili, Cajun Dry Rub, Teriyaki, Hot Teriyaki, Krabby's Bourbon, Garlic Parmesan, Hot Garlic, ` +
         `Hot Garlic Parmesan, Joe's Honey Mustard, and Weihn's Hot Ranch.`,
       items: [
-        { title: `6 Wings`, price: 6 },
-        { title: `12 Wings`, price: 11 },
-        { title: `Blue Cheese or Ranch and Celery`, price: 1 },
+        { title: `Half Dozen`, description: `Bone In or Boneless`, price: 7 },
+        { title: `Dozen`, description: `Bone In or Boneless`, price: 13 },
+        { title: `Blue Cheese or Ranch & Celery`, price: 1 },
         { title: `Extra Side Sauce`, price: 0.5 }
       ]
     },
     {
-      title: `Pizza`,
-      description: `Comes in both 9" and 12"`,
-      items: [
-        { title: `Cheese`, description: `Gallucci's Marinara or FLB Sauce`, price: '8 / 10' },
-        {
-          title: `BBQ Chicken`,
-          description: `BBQ Sauce, Grilled Chicken, Bacon, and Mozzarella Cheese`,
-          price: '10 / 13'
-        },
-        {
-          title: `BBQ Chicken`,
-          description: `BBQ Sauce, Grilled Chicken, Bacon, and Mozzarella Cheese`,
-          price: '10 / 13'
-        },
-        {
-          title: `Buffalo Chicken`,
-          description: `Hot Ranch, Grilled Chicken in Mild Buffalo, and Jack Cheddar`,
-          price: '10 / 13'
-        },
-        {
-          title: `The Bulldog`,
-          description: `Pepperoni, Sausage, Mushrooms, Banana Peppers, and Mozzarella`,
-          price: '10 / 13'
-        },
-        {
-          title: `Additional Toppings`,
-          description: `Pepperoni, Sausage Bacon, Onion, Mushroom, Pepper, Banana Peppers, Tomato, and Extra Cheese`,
-          price: '1 / 2'
-        }
-      ]
-    },
-    {
       title: `Quesadillas`,
-      description: `Served with hot, medium, or mild salsa & sour cream`,
       items: [
-        { title: `Cheese`, price: 7 },
-        { title: `Veggie`, description: `Red & green peppers, onion, tomatoes, and jack cheddar`, price: 7 },
-        { title: `Chicken & Cheese`, description: `Grilled or fried chicken & jack cheddar`, price: 9 },
+        { title: `Cheese`, description: `Shredded Cheddar Cheese, Tomato, and Sour Cream`, price: 8 },
+        { title: `Veggie`, description: `Red and Green Peppers, Onions, Tomatoes, and Pepper Jack`, price: 11 },
+        { title: `Chicken & Cheese`, description: `Grilled or Fried Chicken & Pepper Jack Cheese`, price: 11 },
         {
           title: `Fajita Chicken`,
-          description: `Grilled chicken, red & green peppers, onion, mushrooms, and jack cheddar`,
-          price: 10
+          description: `Grilled Chicken, Red & Green Peppers, Onion, Mushrooms, and Pepper Jack`,
+          price: 12
         },
         {
           title: `Fajita Steak`,
-          description: `Grilled steak, red & green peppers, onion, mushrooms, and jack cheddar`,
-          price: 10
+          description: `Grilled Steak, Red & Green Peppers, Onion, Mushrooms, and Pepper Jack`,
+          price: 13
         },
-        {
-          title: `Fajita Steak`,
-          description: `Grilled steak, red & green peppers, onion, mushrooms, and jack cheddar`,
-          price: 11
-        },
-        { title: `BBQ Chicken`, description: `BBQ sauce, grilled or fried chicken, and jack cheddar`, price: 10 },
-        { title: `Chicken Mac`, description: `BBQ sauce, grilled or fried chicken, and jack cheddar`, price: 10 }
+        { title: `BBQ Chicken`, description: `BBQ sauce, Grilled or Fried Chicken, and Pepper Jack`, price: 12 },
+        { title: `Chicken Mac`, description: `Grilled Chicken, Pepper Jack, and Mac and Cheese Bites`, price: 12 }
       ]
     },
     {
       title: `Salads`,
       description: `Dressings: Ranch, Blue Cheese, Italian, Honey Mustard, Greek, or Balsamic`,
       items: [
-        { title: `Side`, description: `House or Caesar`, price: 6 },
         {
           title: `House`,
           description: `Lettuce, Tomato, Celery, Peppers, Mushroom, Black Olives, Croutons, and Cheddar Jack`,
           price: 8
         },
         { title: `Caesar`, description: `Romaine, Tomatoes, Onion, Parmesan, and Croutons`, price: 8 },
-        { title: `Greek`, description: `Romaine, Geta, Tomatoes, Olives, and Peppercini`, price: 8 },
+        { title: `Greek`, description: `Romaine, Feta, Tomatoes, Olives, and Pepperoni`, price: 9 },
         {
           title: `Buffalo Chicken`,
           description: `Lettuce, FLB tossed Grilled or Fried Chicken, Celery, Banana Peppers, Tomatoes, and Crumbled Blue Cheese`,
-          price: 8
+          price: 12
         },
         {
           title: `Add Chicken`,
-          price: 2
+          price: 3
         }
       ]
     },
     {
       title: `Burgers`,
-      description: `All burgers come with chips`,
+      description:
+        `All burgers come with chips. Sub Fries, Tater Tots, Homestyle Chips, or Onion Rings for $2. ` +
+        `Sub Side House Salad, Side Caesar, or Sweet Potato Fries for $3. Add Side of any Sauce for .50`,
       items: [
         {
           title: `FLB`,
@@ -174,53 +153,58 @@ export class MenuView {
         },
         { title: `Joyce`, description: `Add BBQ Sauce, Bacon, and an Onion Ring`, price: 11 },
         { title: `Gassman`, description: `Add Cajun, Banana Peppers, Blue Cheese, and Hot Sauce`, price: 10 },
-        { title: `Dude`, description: `Add a Hash brown`, price: 10 },
-        { title: `Colin`, description: `Add Bacon Cheese Fries`, price: 11 },
+        { title: `Dude`, description: `Add a Hash brown to the FLB`, price: 10 },
+        { title: `Colin`, description: `Add Bacon Cheese Fries on top of FLB`, price: 11 },
         { title: `Mushroom Swiss`, description: `Add Grilled Mushrooms and Swiss`, price: 10 },
-        { title: `Breakfast`, description: `Add a Fried Egg, Bacon, and Cheddar Cheese`, price: 11 },
-        { title: `Red's`, description: `Add Jalapenos, Pepper Jack, Hot BBQ, and an Onion Ring`, price: 10 },
+        { title: `Breakfast`, description: `Add a Fried Egg, Bacon, and Cheddar Cheese`, price: 12 },
+        { title: `Red's`, description: `Add Jalapenos, Pepper Jack, Hot BBQ, and an Onion Ring`, price: 11 },
         { title: `Porky's`, description: `Add Pulled Pork and Swiss`, price: 11 }
       ]
     },
     {
       title: `Chicken`,
-      description: `All sandwiches come with chips`,
+      description:
+        `All sandwiches come with chips. Sub Fries, Tater Tots, Homestyle Chips, or Onion Rings for $2. ` +
+        `Sub Side House Salad, Side Caesar, or Sweet Potato Fries for $3. Add Side of any Sauce for .50`,
       items: [
-        { title: `Uncle Pat's`, description: `Grilled Chicken, lettuce, and tomato on a Broiche Bun`, price: 9 },
+        { title: `Uncle Pat's`, description: `Grilled Chicken, Lettuce, and Tomato on a Broiche Bun`, price: 9 },
         { title: `Bacon Swiss`, description: `Add Bacon, Swiss, and Mayo`, price: 10 },
         { title: `Buffalo Blue`, description: `Add Mild Buffalo, Provolone, and Blue Cheese`, price: 10 },
         { title: `Club`, description: `Add Bacon, Swiss, and Mayo`, price: 10 },
-        { title: `Cajun`, description: `Add Cajun, Pepper Jack, and Ranch`, price: 10 }
+        { title: `Cajun`, description: `Add Cajun Spice, Pepper Jack, and Ranch`, price: 10 },
+        { title: `BBQ Chicken`, description: `BBQ sauce, Grilled or Fried Chicken, and Pepper Jack`, price: 10 }
       ]
     },
     {
       title: `Wraps`,
-      description: `All wraps come with chips`,
+      description:
+        `All wraps come with chips. Sub Fries, Tater Tots, Homestyle Chips, or Onion Rings for $2. ` +
+        `Sub Side House Salad, Side Caesar, or Sweet Potato Fries for $3. Add Side of any Sauce for .50`,
       items: [
         { title: `BLT`, description: `Bacon, Lettuce, Tomato, and Mayo`, price: 8 },
         {
           title: `Veggie`,
-          description: `Saut&eacute;ed Mushrooms, Onion and Peppers, Lettuce, Tomato, and Jack Cheddar`,
-          price: 8
+          description: `Sauteed Mushrooms, Onion and Peppers, Lettuce, Tomato, and Pepper Jack`,
+          price: 9
         },
         {
           title: `Buffalo Chicken`,
-          description: `Mild Buffalo Tossed Grilled or Fried Chicken, Lettuce, Tomato, and Jack Cheddar`,
+          description: `Grilled or Fried Chicken tossed with Mild Buffalo Sauce, Lettuce, Tomato, and Pepper Jack`,
           price: 10
         },
         {
           title: `BBQ Chicken`,
-          description: `BBQ Tossed Grilled or Fried Chicken, Lettuce, Tomato, and Jack Cheddar`,
+          description: `Grilled or Fried Chicken tossed with BBQ sauce, Lettuce, Tomato, and Pepper Jack`,
           price: 10
         },
         {
           title: `Chicken Caesar`,
-          description: `Grilled or Fried Chicken, Lettuce, Tomato, and Parmesan Cheese`,
+          description: `Grilled or Fried Chicken with dressing, Lettuce, Tomato, and Parmesan Cheese`,
           price: 10
         },
         {
-          title: `Chicken Parm`,
-          description: `Grilled or Fried Chicken, Provolone, Marinara, and Parmesan`,
+          title: `Chicken Parmesan`,
+          description: `Grilled or Fried Chicken, Marinara, Provolone, and Parmesan Cheese`,
           price: 10
         },
         {
@@ -232,51 +216,77 @@ export class MenuView {
           title: `Buffalo Blue Chicken`,
           description: `Grilled or Fried Chicken, Lettuce, Tomato, Hot Ranch, and Blue Cheese`,
           price: 10
+        },
+        {
+          title: `Fajita Chicken`,
+          description: `Grilled Steak, Red and Green Peppers, Onion, Mushroom, and Pepper Jack`,
+          price: 12
+        },
+        {
+          title: `Fajita Steak`,
+          description: `Grilled Steak, Red and Green Peppers, Onion, Mushroom, and Pepper Jack`,
+          price: 13
         }
       ]
     },
     {
       title: `Sandwiches`,
-      description: `All sandwiches come with chips`,
+      description:
+        `All sandwiches come with chips. Sub Fries, Tater Tots, Homestyle Chips, or Onion Rings for $2. ` +
+        `Sub Side House Salad, Side Caesar, or Sweet Potato Fries for $3. Add Side of any Sauce for .50`,
       items: [
-        { title: `BLT`, description: `White Bread, Bacon, Lettuce, Tomato, and Mayo`, price: 7 },
-        { title: `Polish Boy`, description: `Hoagie Bun, Sausage French Fries, Cole Slaw, and BBQ Sauce`, price: 7 },
-        { title: `Colleen's Yumbos (2)`, description: `Ham, Swiss, and Colleen's Poppyseed Sauce`, price: 8 },
-        { title: `TFO`, description: `Rye Bread, Guinness cooked Corned Beef, Swiss, Toasted`, price: 9 },
-        { title: `Midge's Reuben`, description: `TFO add Sauerkraut and Thousand Island`, price: 10 },
+        { title: `BLT`, description: `Bacon, Lettuce, Tomato, and Mayo`, price: 8 },
+        {
+          title: `Polish Boy`,
+          description: `Sausage on a Hoagie Roll, French Fries, Coleslaw, and BBQ sauce`,
+          price: 8
+        },
+        { title: `Colleen's Yumbos`, description: `Two Ham & Swiss Sandwiches with Poppyseed Sauce`, price: 8 },
+        { title: `TFO`, description: `Guinness cooked Corned Beef on Toasted Rye with Swiss`, price: 11 },
+        { title: `Midge's Reuben`, description: `TFO, Add Sauerkraut and Thousand Island`, price: 12 },
         {
           title: `Sparky's Steak Philly`,
-          description: `Hoagie Bun, Mushrooms, Onions, Peppers, and Mozzarella`,
-          price: 10
+          description: `Grilled Steak, Mushrooms, Onions, Peppers, and Mozzarella on a Hoagie Roll`,
+          price: 11
         },
         {
           title: `Betty's Chicken Philly`,
-          description: `Hoagie Bun, Mushrooms, Onions, Peppers, and Mozzarella`,
-          price: 10
+          description: `Grilled Chicken, Mushrooms, Onions, and Peppers and Mozzarella on a Hoagie Roll`,
+          price: 11
         },
-        { title: `Big Chuck Sausage`, description: `Hoagie Bun, Mozzarella, and Gallucci's Marinara`, price: 9 },
-        { title: `Perch`, description: `Hoagie Bun, Lightly Breaded, Fried Perch, and Tartar Sauce`, price: 10 },
-        { title: `Cod`, description: `Brioche Bun, Baked Cod, and Tarter Sauce`, price: 10 },
-        { title: `Naughten's Meatball`, description: `Hoagie Bun, Mozzarella, and Gallucci's Marinara`, price: 9 },
+        { title: `Perch`, description: `Lightly Breaded fried Perch on a Hoagie Roll with Tartar Sauce`, price: 11 },
         {
-          title: `Russell The Muscle`,
-          description: `White Bread, American, Swiss, Pepper Jack, Bacon, Tomato, and a Fried Egg`,
+          title: `Naughten's Meatball`,
+          description: `Meatballs, Gallucci's Sauce, and Mozzarella served on a Hoagie Roll`,
           price: 9
         },
-        { title: `Pulled Pork`, description: `Brioche Bun, Pulled Pork, and Jack Cheddar`, price: 9 },
-        { title: `Mac -n- Cheese`, description: `White Bread, American Cheese, and Mac-n-cheese, Bites`, price: 8 },
-        { title: `Grilled Cheese`, description: `Hoagie Bun, Mushrooms, Onions, Peppers, and Mozzarella`, price: 6 }
+        {
+          title: `Russell The Muscle`,
+          description: `Fried Egg, Bacon, Tomato, American, Swiss, and Pepper Jack Cheese on White Bread`,
+          price: 9
+        },
+        { title: `Pulled Pork`, description: `Pulled Pork and Pepper Jack on a Brioche Bun`, price: 10 },
+        { title: `Mac-n-Cheese`, description: `A Grilled Cheese on White Bread with Mac and Cheese Bites`, price: 8 },
+        { title: `Grilled Cheese`, description: `American Cheese on White Bread`, price: 6 },
+        {
+          title: `Big Chuck Sausage`,
+          description: `Sausage, Gallucci's Marinara, and Mozzarella on a Hoagie Roll`,
+          price: 9
+        }
       ]
     },
     {
       title: `Entrees`,
-      description: `All entrees come with a choice of side, cole slaw, roll, and butter`,
+      description:
+        `All entrees come with a choice of Side, Coleslaw, Roll, and Butter. ` +
+        `Sides - House Cut Fries, Flat Fries, Tater Tots, Homestyle Chips, Onion Rings, House or Caesar Salad. ` +
+        `Add Sauteed Mushrooms and Onion or any Cheese for $2.`,
       items: [
-        { title: `Sirloin`, description: `8 oz`, price: 12 },
-        { title: `Strip`, description: `10 oz`, price: 16 },
-        { title: `Perch`, description: `Lightly Breaded, Fried Perch, and Tarter Sauce`, price: 14 },
-        { title: `Cod`, description: `Baked Cod and Tarter Sauce`, price: 14 },
-        { title: `BBQ Chicken`, price: 12 }
+        { title: `Sirloin 8oz`, price: 13 },
+        { title: `Strip 10oz`, price: 17 },
+        { title: `Perch`, description: `Lightly Breaded, Served with Tartar Sauce`, price: 16 },
+        { title: `Walleye Bites`, description: `Breaded and Deep Fried`, price: 17 },
+        { title: `BBQ Chicken`, price: 13 }
       ]
     }
   ];
