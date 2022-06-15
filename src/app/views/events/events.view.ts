@@ -28,16 +28,17 @@ export class EventsView {
     //   imgSrc: `assets/events/faith&whiskey.png`,
     //   date: new Date('Fri Aug 6 2021 18:00:00 GMT-0400')
     // },
-    // {
-    //   title: `Fat Little Buffett Fest`,
-    //   description:
-    //     `We can't wait to celebrate our third and fourth annual outdoor music festival with you. ` +
-    //     `One free beer and koozie at entry with each ticket purchase. Shot skis will be back for purchase as well.`,
-    //   buttonText: `Buy Tickets`,
-    //   buttonUrl: `https://www.eventbrite.com/e/3rd-4th-annual-fat-little-buffett-fest-tickets-161028286941`,
-    //   imgSrc: `assets/events/FLB_Fest.png`,
-    //   date: new Date('Sat Aug 7 2021 14:00:00 GMT-0400')
-    // },
+    {
+      title: `Fat Little Buffett Fest`,
+      description:
+        `We can't wait to celebrate our fifth annual outdoor music festival with you. ` +
+        `2 Musical Acts - Dogwood ft. Parrots of the Caribbean. One free beer and koozie at entry with each ticket purchase. ` +
+        `Proceeds benefit Alzheimer's Association.`,
+      buttonText: `Buy Tickets`,
+      buttonUrl: `https://www.eventbrite.com/e/5th-annual-fat-little-buffett-music-festival-tickets-367892405087`,
+      imgSrc: `assets/events/FLB_Fest.png`,
+      date: new Date('Sat Aug 6 2022 14:00:00 GMT-0400')
+    }
     // {
     //   title: `11th Annual Fat Little 5K and 1 Mile Walk`,
     //   description: `Join us for the 11th Annual Fat Little 5K and 1 Mile Walk to benefit Olmsted Township Police & Fire Departments.
