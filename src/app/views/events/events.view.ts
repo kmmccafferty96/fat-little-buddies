@@ -24,7 +24,7 @@ export class EventsView {
       description: `Woohoo!!! We have a fun weekend coming up and we want you to join the party!!!
       Celebrations begin Friday, August 5th with Whiskey Bound - Ohio's Premier High Energy Country and Southern Rock Party Band! No Cover!`,
       imgSrc: `assets/events/whiskeybound.jpg`,
-      date: new Date('Fri Aug 5 2021 17:00:00 GMT-0400')
+      date: new Date('Fri Aug 5 2022 17:00:00 GMT-0400')
     },
     {
       title: `Fat Little Buffett Fest`,
@@ -45,7 +45,7 @@ export class EventsView {
       buttonText: `Sign Up`,
       buttonUrl: `https://www.runsignup.com/FatLittle5K`,
       imgSrc: `assets/events/5k.png`,
-      date: new Date('Sat Sept 24 2021 9:00:00 GMT-0400')
+      date: new Date('Sat Sept 24 2022 9:00:00 GMT-0400')
     }
     // {
     //   title: `0.5k Santa Stroll 2021`,
