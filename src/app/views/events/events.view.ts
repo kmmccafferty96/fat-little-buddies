@@ -19,15 +19,13 @@ export interface Event {
 })
 export class EventsView {
   events: Event[] = [
-    // {
-    //   title: `10th Anniversary Party - Faith & Whiskey`,
-    //   description: `Woohoo!!! We have a fun weekend coming up and we want you to join the party!!!
-    //   It's finally time to celebrate our 10th-ANNIVERSARY PARTY
-    //   [after 11 and a half years- thanks COVID!]
-    //   Celebrations begin Friday, August 6th with our headliner Faith & Whiskey ~if you don't have one, you better have the other~`,
-    //   imgSrc: `assets/events/faith&whiskey.png`,
-    //   date: new Date('Fri Aug 6 2021 18:00:00 GMT-0400')
-    // },
+    {
+      title: `12th Anniversary Party - Whiskey Bound`,
+      description: `Woohoo!!! We have a fun weekend coming up and we want you to join the party!!!
+      Celebrations begin Friday, August 5th with Whiskey Bound - Ohio's Premier High Energy Country and Southern Rock Party Band! No Cover!`,
+      imgSrc: `assets/events/whiskeybound.jpg`,
+      date: new Date('Fri Aug 5 2021 17:00:00 GMT-0400')
+    },
     {
       title: `Fat Little Buffett Fest`,
       description:
@@ -38,17 +36,17 @@ export class EventsView {
       buttonUrl: `https://www.eventbrite.com/e/5th-annual-fat-little-buffett-music-festival-tickets-367892405087`,
       imgSrc: `assets/events/FLB_Fest.png`,
       date: new Date('Sat Aug 6 2022 14:00:00 GMT-0400')
+    },
+    {
+      title: `12th Annual Fat Little 5K and 1 Mile Walk`,
+      description: `Join us for the 12th Annual Fat Little 5K and 1 Mile Walk to benefit the Alzheimer's Association.
+      There will be awards, music, lunch specials, and a huge Fat Little Party after the event.
+      Come for the race, stay for the party!`,
+      buttonText: `Sign Up`,
+      buttonUrl: `https://www.runsignup.com/FatLittle5K`,
+      imgSrc: `assets/events/5k.png`,
+      date: new Date('Sat Sept 24 2021 9:00:00 GMT-0400')
     }
-    // {
-    //   title: `11th Annual Fat Little 5K and 1 Mile Walk`,
-    //   description: `Join us for the 11th Annual Fat Little 5K and 1 Mile Walk to benefit Olmsted Township Police & Fire Departments.
-    //   There will be awards, music, lunch specials, and a huge Fat Little Party after the event.
-    //   Come for the race, stay for the party!`,
-    //   buttonText: `Sign Up`,
-    //   buttonUrl: `https://www.runsignup.com/FatLittle5K`,
-    //   imgSrc: `assets/events/5k.png`,
-    //   date: new Date('Sat Sept 11 2021 9:00:00 GMT-0400')
-    // },
     // {
     //   title: `0.5k Santa Stroll 2021`,
     //   description: `Join us for the 2021 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa
