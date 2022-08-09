@@ -11,14 +11,14 @@ import { CarouselItem } from './components/carousel/carousel.component';
 })
 export class HomeView {
   carouselItems: CarouselItem[] = [
-    {
-      title: 'Fat Little Buffett Fest',
-      description: `Our outdoor music festival is coming August 6th!`,
-      buttonText: 'Buy Tickets',
-      buttonUrl: 'https://www.eventbrite.com/e/5th-annual-fat-little-buffett-music-festival-tickets-367892405087',
-      isExternalUrl: true,
-      imgSrc: 'assets/carousel/parrot3.jpg'
-    },
+    // {
+    //   title: 'Fat Little Buffett Fest',
+    //   description: `Our outdoor music festival is coming August 6th!`,
+    //   buttonText: 'Buy Tickets',
+    //   buttonUrl: 'https://www.eventbrite.com/e/5th-annual-fat-little-buffett-music-festival-tickets-367892405087',
+    //   isExternalUrl: true,
+    //   imgSrc: 'assets/carousel/parrot3.jpg'
+    // },
     {
       title: 'Fat Little 5K',
       description: `Join us September 24th for our 12th Annual Fat Little 5K and 1 Mile Walk. ALL proceeds benefit the Alzheimer's Association.`,
