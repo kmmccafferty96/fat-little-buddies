@@ -19,14 +19,14 @@ export class HomeView {
     //   isExternalUrl: true,
     //   imgSrc: 'assets/carousel/parrot3.jpg'
     // },
-    {
-      title: 'Fat Little 5K',
-      description: `Join us September 24th for our 12th Annual Fat Little 5K and 1 Mile Walk. ALL proceeds benefit the Alzheimer's Association.`,
-      buttonText: 'Sign Up',
-      buttonUrl: 'https://www.runsignup.com/FatLittle5K',
-      isExternalUrl: true,
-      imgSrc: 'assets/carousel/5k.jpg'
-    },
+    // {
+    //   title: 'Fat Little 5K',
+    //   description: `Join us September 24th for our 12th Annual Fat Little 5K and 1 Mile Walk. ALL proceeds benefit the Alzheimer's Association.`,
+    //   buttonText: 'Sign Up',
+    //   buttonUrl: 'https://www.runsignup.com/FatLittle5K',
+    //   isExternalUrl: true,
+    //   imgSrc: 'assets/carousel/5k.jpg'
+    // },
     // {
     //   title: 'Santa Stroll 2021',
     //   description: `Join us for the 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa, live music, cash raffle, and basket raffle!`,

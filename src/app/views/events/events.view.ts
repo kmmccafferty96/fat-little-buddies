@@ -37,16 +37,16 @@ export class EventsView {
     //   imgSrc: `assets/events/FLB_Fest.png`,
     //   date: new Date('Sat Aug 6 2022 14:00:00 GMT-0400')
     // },
-    {
-      title: `12th Annual Fat Little 5K and 1 Mile Walk`,
-      description: `Join us for the 12th Annual Fat Little 5K and 1 Mile Walk to benefit the Alzheimer's Association.
-      There will be awards, music, lunch specials, and a huge Fat Little Party after the event.
-      Come for the race, stay for the party!`,
-      buttonText: `Sign Up`,
-      buttonUrl: `https://www.runsignup.com/FatLittle5K`,
-      imgSrc: `assets/events/5k.png`,
-      date: new Date('Sat Sept 24 2022 9:00:00 GMT-0400')
-    }
+    // {
+    //   title: `12th Annual Fat Little 5K and 1 Mile Walk`,
+    //   description: `Join us for the 12th Annual Fat Little 5K and 1 Mile Walk to benefit the Alzheimer's Association.
+    //   There will be awards, music, lunch specials, and a huge Fat Little Party after the event.
+    //   Come for the race, stay for the party!`,
+    //   buttonText: `Sign Up`,
+    //   buttonUrl: `https://www.runsignup.com/FatLittle5K`,
+    //   imgSrc: `assets/events/5k.png`,
+    //   date: new Date('Sat Sept 24 2022 9:00:00 GMT-0400')
+    // }
     // {
     //   title: `0.5k Santa Stroll 2021`,
     //   description: `Join us for the 2021 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa
