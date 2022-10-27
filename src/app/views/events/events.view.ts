@@ -47,15 +47,15 @@ export class EventsView {
     //   imgSrc: `assets/events/5k.png`,
     //   date: new Date('Sat Sept 24 2022 9:00:00 GMT-0400')
     // }
-    // {
-    //   title: `0.5k Santa Stroll 2021`,
-    //   description: `Join us for the 2021 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa
-    //   (bring the kids), live music, cash raffle, and basket raffle!`,
-    //   buttonText: `Info & Registration`,
-    //   buttonUrl: `https://fightingforalyssa.regfox.com/ffasantastroll`,
-    //   imgSrc: `assets/events/Santa_Stroll.png`,
-    //   date: new Date('Fri Nov 26 2021 16:30:00 GMT-0400')
-    // }
+    {
+      title: `0.5k Santa Stroll 2022`,
+      description: `Join us for the 2022 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa
+      (bring the kids), live music, cash raffle, and basket raffle all benefiting Fighting for Alyssa! Santa comes at 3:00pm and the race starts at 4:30pm.`,
+      buttonText: `Info & Donation`,
+      buttonUrl: `https://www.fightingforalyssa.org/home`,
+      imgSrc: `assets/events/Santa_Stroll.png`,
+      date: new Date('Fri Nov 25 2022 16:00:00 GMT-0400')
+    }
   ];
 
   constructor(private _titleService: Title) {
