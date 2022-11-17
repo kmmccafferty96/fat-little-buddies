@@ -70,7 +70,7 @@ $flb-primary: mat.define-palette($flb-red, 800, 300, 900);
 $flb-accent: mat.define-palette($flb-yellow, 500);
 $flb-warn: mat.define-palette(mat.$pink-palette, 600);
 
-$flb-typography: mat.define-typography-config(
+$flb-typography: mat.define-legacy-typography-config(
   $font-family: '"Francois One", "Helvetica Neue", sans-serif;'
 );
 

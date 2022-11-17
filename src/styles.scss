@@ -18,15 +18,24 @@
 // Custom themes
 @import './themes/default-theme';
 
-@include mat.core(mat.get-typography-config($flb-theme));
+// TODO(v15): As of v15 mat.legacy-core no longer includes default typography styles.
+//  The following line adds:
+//    1. Default typography styles for all components
+//    2. Styles for typography hierarchy classes (e.g. .mat-headline-1)
+//  If you specify typography styles for the components you use elsewhere, you should delete this line.
+//  If you don't need the default component typographies but still want the hierarchy styles,
+//  you can delete this line and instead use:
+//    `@include mat.legacy-typography-hierarchy(mat.get-typography-config($flb-theme));`
+@include mat.all-legacy-component-typographies(mat.get-typography-config($flb-theme));
+@include mat.legacy-core();
 
 @mixin material-components-theme($theme) {
-  @include mat.core-theme($theme);
-  @include mat.button-theme($theme);
+  @include mat.legacy-core-theme($theme);
+  @include mat.legacy-button-theme($theme);
   @include mat.toolbar-theme($theme);
   @include mat.divider-theme($theme);
   @include mat.sidenav-theme($theme);
-  @include mat.list-theme($theme);
+  @include mat.legacy-list-theme($theme);
 }
 
 @mixin custom-components-theme($theme) {
