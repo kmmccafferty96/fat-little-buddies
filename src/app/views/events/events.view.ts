@@ -50,11 +50,11 @@ export class EventsView {
     {
       title: `0.5k Santa Stroll 2022`,
       description: `Join us for the 2022 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa
-      (bring the kids), live music, cash raffle, and basket raffle all benefiting Fighting for Alyssa! Santa comes at 3:45pm and the race starts at 4:30pm.`,
+      (bring the kids), live music, cash raffle, and basket raffle all benefiting Fighting for Alyssa!`,
       buttonText: `Info & Registration`,
       buttonUrl: `https://fightingforalyssa.regfox.com/ffasantastroll`,
       imgSrc: `assets/events/Santa_Stroll.png`,
-      date: new Date('Fri Nov 25 2022 16:00:00 GMT-0400')
+      date: new Date('Fri Nov 25 2022 17:00:00 GMT-0400')
     }
   ];
 
