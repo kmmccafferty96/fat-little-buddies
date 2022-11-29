@@ -27,14 +27,14 @@ export class HomeView {
     //   isExternalUrl: true,
     //   imgSrc: 'assets/carousel/5k.jpg'
     // },
-    {
-      title: 'Santa Stroll 2022',
-      description: `Join us for the 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa, live music, cash raffle, and basket raffle all benefiting Fighting for Alyssa!`,
-      buttonText: 'Info & Registration',
-      buttonUrl: 'https://fightingforalyssa.regfox.com/ffasantastroll',
-      isExternalUrl: true,
-      imgSrc: 'assets/carousel/Santa_Elsa.jpg'
-    },
+    // {
+    //   title: 'Santa Stroll 2022',
+    //   description: `Join us for the 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa, live music, cash raffle, and basket raffle all benefiting Fighting for Alyssa!`,
+    //   buttonText: 'Info & Registration',
+    //   buttonUrl: 'https://fightingforalyssa.regfox.com/ffasantastroll',
+    //   isExternalUrl: true,
+    //   imgSrc: 'assets/carousel/Santa_Elsa.jpg'
+    // },
     {
       title: 'Great Food',
       description: `Fat Little Buddies has the best food in town!`,
