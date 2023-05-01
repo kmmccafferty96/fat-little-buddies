@@ -9,6 +9,7 @@ export interface Event {
   buttonText?: string;
   buttonUrl?: string;
   imgSrc?: string;
+  disabled?: boolean;
   date: Date;
 }
 
@@ -26,27 +27,29 @@ export class EventsView {
     //   imgSrc: `assets/events/whiskeybound.jpg`,
     //   date: new Date('Fri Aug 5 2022 17:00:00 GMT-0400')
     // },
-    // {
-    //   title: `Fat Little Buffett Fest`,
-    //   description:
-    //     `We can't wait to celebrate our fifth annual outdoor music festival with you. ` +
-    //     `2 Musical Acts - Dogwood ft. Parrots of the Caribbean. One free beer and koozie at entry with each ticket purchase. ` +
-    //     `Proceeds benefit Alzheimer's Association.`,
-    //   buttonText: `Buy Tickets`,
-    //   buttonUrl: `https://www.eventbrite.com/e/5th-annual-fat-little-buffett-music-festival-tickets-367892405087`,
-    //   imgSrc: `assets/events/FLB_Fest.png`,
-    //   date: new Date('Sat Aug 6 2022 14:00:00 GMT-0400')
-    // },
-    // {
-    //   title: `12th Annual Fat Little 5K and 1 Mile Walk`,
-    //   description: `Join us for the 12th Annual Fat Little 5K and 1 Mile Walk to benefit the Alzheimer's Association.
-    //   There will be awards, music, lunch specials, and a huge Fat Little Party after the event.
-    //   Come for the race, stay for the party!`,
-    //   buttonText: `Sign Up`,
-    //   buttonUrl: `https://www.runsignup.com/FatLittle5K`,
-    //   imgSrc: `assets/events/5k.png`,
-    //   date: new Date('Sat Sept 24 2022 9:00:00 GMT-0400')
-    // }
+    {
+      title: `Fat Little 5K and 1 Mile Walk`,
+      description: `Join us for the 13th Annual Fat Little 5K and 1 Mile Walk to benefit the Alzheimer's Association.
+      There will be awards, music, lunch specials, and a huge Fat Little Party after the event.
+      Come for the race, stay for the party!`,
+      buttonText: `Sign Up`,
+      buttonUrl: `https://www.runsignup.com/FatLittle5K`,
+      imgSrc: `assets/events/5k.png`,
+      date: new Date('Sat Jun 17 2023 7:30:00 GMT-0400')
+    },
+    {
+      title: `Fat Little Buffett Fest`,
+      description: `Join us for the 6th Annual Outdoor Music Festival Featuring two Jimmy Buffett tribute bands! 
+        Doors open at 2PM, live music starts at 3PM!!
+        Food by Kolar Concessions!
+        Tickets will go on sale soon!!
+        Proceeds Benefit Alzheimer's Association!`,
+      buttonText: `Tickets On Sale Soon`,
+      disabled: true,
+      buttonUrl: `https://www.eventbrite.com/e/5th-annual-fat-little-buffett-music-festival-tickets-367892405087`,
+      imgSrc: `assets/events/FLB_Fest.png`,
+      date: new Date('Sat Aug 12 2023 14:00:00 GMT-0400')
+    }
     // {
     //   title: `0.5k Santa Stroll 2022`,
     //   description: `Join us for the 2022 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa

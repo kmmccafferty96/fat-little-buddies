@@ -4,17 +4,7 @@
 
     <div
       *ngFor="let event of events"
-      class="
-        events__event
-        py-8
-        px-8
-        mx-auto
-        rounded-xl
-        shadow-md
-        space-y-2
-        sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6
-        mb-6
-      "
+      class="events__event py-8 px-8 mx-auto rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 mb-6"
     >
       <img
         class="event-image border-4 block mx-auto h-48 sm:h-56 lg:h-60 rounded-full sm:mx-0 sm:flex-shrink-0"
@@ -33,6 +23,7 @@
           color="primary"
           class="uppercase"
           [href]="event.buttonUrl"
+          [disabled]="event.disabled"
           target="_blank"
           rel="noopener noreferrer"
           >{{ event.buttonText }}</a
