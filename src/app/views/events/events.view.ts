@@ -35,7 +35,7 @@ export class EventsView {
       buttonText: `Sign Up`,
       buttonUrl: `https://www.runsignup.com/FatLittle5K`,
       imgSrc: `assets/events/5k.png`,
-      date: new Date('Sat Jun 17 2023 7:30:00 GMT-0400')
+      date: new Date('Sat Jun 17 2023 9:00:00 GMT-0400')
     },
     {
       title: `Fat Little Buffett Fest`,
