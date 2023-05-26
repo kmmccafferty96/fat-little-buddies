@@ -23,8 +23,8 @@ export class HomeView {
       title: 'Fat Little Buffett Fest',
       description: `Our outdoor music festival is coming August 12th!`,
       buttonText: 'Buy Tickets',
-      buttonUrl: 'events',
-      isExternalUrl: false,
+      buttonUrl: 'https://www.eventbrite.com/e/6th-annual-fat-little-buffett-music-festival-tickets-643782218947',
+      isExternalUrl: true,
       imgSrc: 'assets/carousel/parrot3.jpg'
     },
     // {

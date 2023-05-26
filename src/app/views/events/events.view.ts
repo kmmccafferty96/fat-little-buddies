@@ -39,14 +39,12 @@ export class EventsView {
     },
     {
       title: `Fat Little Buffett Fest`,
-      description: `Join us for the 6th Annual Outdoor Music Festival Featuring two Jimmy Buffett tribute bands! 
+      description: `Join us for the 6th Annual Outdoor Music Festival featuring two Jimmy Buffett tribute bands! 
         Doors open at 2PM, live music starts at 3PM!!
         Food by Kolar Concessions!
-        Tickets will go on sale soon!!
         Proceeds Benefit Alzheimer's Association!`,
-      buttonText: `Tickets On Sale Soon`,
-      disabled: true,
-      buttonUrl: `https://www.eventbrite.com/e/5th-annual-fat-little-buffett-music-festival-tickets-367892405087`,
+      buttonText: `Buy Tickets`,
+      buttonUrl: `https://www.eventbrite.com/e/6th-annual-fat-little-buffett-music-festival-tickets-643782218947`,
       imgSrc: `assets/events/FLB_Fest.png`,
       date: new Date('Sat Aug 12 2023 14:00:00 GMT-0400')
     }
