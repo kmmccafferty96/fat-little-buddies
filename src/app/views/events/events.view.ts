@@ -44,7 +44,7 @@ export class EventsView {
         Food by Kolar Concessions!
         Proceeds Benefit Alzheimer's Association!`,
       buttonText: `Buy Tickets`,
-      buttonUrl: `https://www.eventbrite.com/e/6th-annual-fat-little-buffett-music-festival-tickets-643782218947`,
+      buttonUrl: `https://www.eventbrite.com/e/6th-annual-fat-little-buffett-music-festival-tickets-643782218947?aff=FLBSite`,
       imgSrc: `assets/events/FLB_Fest.png`,
       date: new Date('Sat Aug 12 2023 14:00:00 GMT-0400')
     }
