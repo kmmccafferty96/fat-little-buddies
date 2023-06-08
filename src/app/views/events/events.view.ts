@@ -22,13 +22,6 @@ export interface Event {
 })
 export class EventsView {
   events: Event[] = [
-    // {
-    //   title: `12th Anniversary Party - Whiskey Bound`,
-    //   description: `Woohoo!!! We have a fun weekend coming up and we want you to join the party!!!
-    //   Celebrations begin Friday, August 5th with Whiskey Bound - Ohio's Premier High Energy Country and Southern Rock Party Band! No Cover!`,
-    //   imgSrc: `assets/events/whiskeybound.jpg`,
-    //   date: new Date('Fri Aug 5 2022 17:00:00 GMT-0400')
-    // },
     {
       title: `Fat Little 5K and 1 Mile Walk`,
       description: `Join us for the 13th Annual Fat Little 5K and 1 Mile Walk to benefit the Alzheimer's Association.
@@ -49,6 +42,13 @@ export class EventsView {
       button2Url: `https://www.eventbrite.com/e/4th-of-july-flb-cornhole-tournament-tickets-653356174907`,
       imgSrc: `assets/events/cornhole.jpg`,
       date: new Date('Fri Jun 30 2023 19:00:00 GMT-0400')
+    },
+    {
+      title: `13th Anniversary Party - Whiskey Bound`,
+      description: `Woohoo!!! We have a fun weekend coming up and we want you to join the party!!!
+      Celebrations begin Friday, August 11th with Whiskey Bound - Ohio's Premier High Energy Country and Southern Rock Party Band! No Cover!`,
+      imgSrc: `assets/events/whiskeybound.jpg`,
+      date: new Date('Fri Aug 11 2023 19:30:00 GMT-0400')
     },
     {
       title: `Fat Little Buffett Fest`,
