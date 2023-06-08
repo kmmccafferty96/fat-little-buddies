@@ -8,6 +8,8 @@ export interface Event {
   description?: string;
   buttonText?: string;
   buttonUrl?: string;
+  button2Text?: string;
+  button2Url?: string;
   imgSrc?: string;
   disabled?: boolean;
   date: Date;
@@ -36,6 +38,17 @@ export class EventsView {
       buttonUrl: `https://www.runsignup.com/FatLittle5K`,
       imgSrc: `assets/events/5k.png`,
       date: new Date('Sat Jun 17 2023 9:00:00 GMT-0400')
+    },
+    {
+      title: `4th of July FLB Cornhole Tournament`,
+      description: `Join us for the 4th of July Fat Little Buddies Cornhole Tournament! There will be music, drinks, and food!
+      To join, first sign up below using the Sign Up link and then pay using the Pay link.`,
+      buttonText: `Sign Up`,
+      buttonUrl: `https://docs.google.com/forms/d/1jk-8khQIZ0CAjQXSvniqOl981d_uXip4Kz0ZOucjPVI/viewform?edit_requested=true`,
+      button2Text: `Pay`,
+      button2Url: `https://www.eventbrite.com/e/4th-of-july-flb-cornhole-tournament-tickets-653356174907`,
+      imgSrc: `assets/events/cornhole.jpg`,
+      date: new Date('Fri Jun 30 2023 19:00:00 GMT-0400')
     },
     {
       title: `Fat Little Buffett Fest`,

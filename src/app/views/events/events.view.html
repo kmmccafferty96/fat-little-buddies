@@ -28,6 +28,17 @@
           rel="noopener noreferrer"
           >{{ event.buttonText }}</a
         >
+        <a
+          mat-raised-button
+          *ngIf="event.button2Text"
+          color="primary"
+          class="uppercase"
+          [href]="event.button2Url"
+          [disabled]="event.disabled"
+          target="_blank"
+          rel="noopener noreferrer"
+          >{{ event.button2Text }}</a
+        >
       </div>
     </div>
   </div>
