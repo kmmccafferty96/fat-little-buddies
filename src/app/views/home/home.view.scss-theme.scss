@@ -9,6 +9,12 @@
   $warn-palette: map.get($color-config, warn);
 
   flb-home {
+    .home {
+      &__background {
+        background-color: mat.get-color-from-palette($primary-palette, default-contrast);
+        color: mat.get-color-from-palette($primary-palette);
+      }
+    }
   }
 }
 
