@@ -22,16 +22,16 @@ export interface Event {
 })
 export class EventsView {
   events: Event[] = [
-    {
-      title: `Fat Little 5K and 1 Mile Walk`,
-      description: `Join us for the 13th Annual Fat Little 5K and 1 Mile Walk to benefit the Alzheimer's Association.
-      There will be awards, music, lunch specials, and a huge Fat Little Party after the event.
-      Come for the race, stay for the party!`,
-      buttonText: `Sign Up`,
-      buttonUrl: `https://www.runsignup.com/FatLittle5K`,
-      imgSrc: `assets/events/5k.png`,
-      date: new Date('Sat Jun 17 2023 9:00:00 GMT-0400')
-    },
+    // {
+    //   title: `Fat Little 5K and 1 Mile Walk`,
+    //   description: `Join us for the 13th Annual Fat Little 5K and 1 Mile Walk to benefit the Alzheimer's Association.
+    //   There will be awards, music, lunch specials, and a huge Fat Little Party after the event.
+    //   Come for the race, stay for the party!`,
+    //   buttonText: `Sign Up`,
+    //   buttonUrl: `https://www.runsignup.com/FatLittle5K`,
+    //   imgSrc: `assets/events/5k.png`,
+    //   date: new Date('Sat Jun 17 2023 9:00:00 GMT-0400')
+    // },
     {
       title: `4th of July FLB Cornhole Tournament`,
       description: `Join us for the 4th of July Fat Little Buddies Cornhole Tournament! There will be music, drinks, and food!

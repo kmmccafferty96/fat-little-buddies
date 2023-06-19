@@ -11,14 +11,14 @@ import { CarouselItem } from './components/carousel/carousel.component';
 })
 export class HomeView {
   carouselItems: CarouselItem[] = [
-    {
-      title: 'Fat Little 5K',
-      description: `Join us June 17th for our 13th Annual Fat Little 5K and 1 Mile Walk. ALL proceeds benefit the Alzheimer's Association.`,
-      buttonText: 'Sign Up',
-      buttonUrl: 'https://www.runsignup.com/FatLittle5K',
-      isExternalUrl: true,
-      imgSrc: 'assets/carousel/5k.jpg'
-    },
+    // {
+    //   title: 'Fat Little 5K',
+    //   description: `Join us June 17th for our 13th Annual Fat Little 5K and 1 Mile Walk. ALL proceeds benefit the Alzheimer's Association.`,
+    //   buttonText: 'Sign Up',
+    //   buttonUrl: 'https://www.runsignup.com/FatLittle5K',
+    //   isExternalUrl: true,
+    //   imgSrc: 'assets/carousel/5k.jpg'
+    // },
     {
       title: 'Fat Little Buffett Fest',
       description: `Our outdoor music festival is coming August 12th!`,
