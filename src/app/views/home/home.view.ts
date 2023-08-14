@@ -19,15 +19,15 @@ export class HomeView {
     //   isExternalUrl: true,
     //   imgSrc: 'assets/carousel/5k.jpg'
     // },
-    {
-      title: 'Fat Little Buffett Fest',
-      description: `Our outdoor music festival is coming August 12th!`,
-      buttonText: 'Buy Tickets',
-      buttonUrl:
-        'https://www.eventbrite.com/e/6th-annual-fat-little-buffett-music-festival-tickets-643782218947?aff=FLBSite',
-      isExternalUrl: true,
-      imgSrc: 'assets/carousel/parrot3.jpg'
-    },
+    // {
+    //   title: 'Fat Little Buffett Fest',
+    //   description: `Our outdoor music festival is coming August 12th!`,
+    //   buttonText: 'Buy Tickets',
+    //   buttonUrl:
+    //     'https://www.eventbrite.com/e/6th-annual-fat-little-buffett-music-festival-tickets-643782218947?aff=FLBSite',
+    //   isExternalUrl: true,
+    //   imgSrc: 'assets/carousel/parrot3.jpg'
+    // },
     // {
     //   title: 'Santa Stroll 2022',
     //   description: `Join us for the 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa, live music, cash raffle, and basket raffle all benefiting Fighting for Alyssa!`,

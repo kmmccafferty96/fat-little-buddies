@@ -32,35 +32,35 @@ export class EventsView {
     //   imgSrc: `assets/events/5k.png`,
     //   date: new Date('Sat Jun 17 2023 9:00:00 GMT-0400')
     // },
-    {
-      title: `4th of July FLB Cornhole Tournament`,
-      description: `Join us for the 4th of July Fat Little Buddies Cornhole Tournament! There will be music, drinks, and food!
-      To join, first sign up below using the Sign Up link and then pay using the Pay link.`,
-      buttonText: `Sign Up`,
-      buttonUrl: `https://docs.google.com/forms/d/1jk-8khQIZ0CAjQXSvniqOl981d_uXip4Kz0ZOucjPVI/viewform?edit_requested=true`,
-      button2Text: `Pay`,
-      button2Url: `https://www.eventbrite.com/e/4th-of-july-flb-cornhole-tournament-tickets-653356174907`,
-      imgSrc: `assets/events/cornhole.jpg`,
-      date: new Date('Fri Jun 30 2023 19:00:00 GMT-0400')
-    },
-    {
-      title: `13th Anniversary Party - Whiskey Bound`,
-      description: `Woohoo!!! We have a fun weekend coming up and we want you to join the party!!!
-      Celebrations begin Friday, August 11th with Whiskey Bound - Ohio's Premier High Energy Country and Southern Rock Party Band! No Cover!`,
-      imgSrc: `assets/events/whiskeybound.jpg`,
-      date: new Date('Fri Aug 11 2023 19:30:00 GMT-0400')
-    },
-    {
-      title: `Fat Little Buffett Fest`,
-      description: `Join us for the 6th Annual Outdoor Music Festival featuring two Jimmy Buffett tribute bands! 
-        Doors open at 2PM, live music starts at 3PM!!
-        Food by Kolar Concessions!
-        Proceeds Benefit Alzheimer's Association!`,
-      buttonText: `Buy Tickets`,
-      buttonUrl: `https://www.eventbrite.com/e/6th-annual-fat-little-buffett-music-festival-tickets-643782218947?aff=FLBSite`,
-      imgSrc: `assets/events/FLB_Fest.png`,
-      date: new Date('Sat Aug 12 2023 14:00:00 GMT-0400')
-    }
+    // {
+    //   title: `4th of July FLB Cornhole Tournament`,
+    //   description: `Join us for the 4th of July Fat Little Buddies Cornhole Tournament! There will be music, drinks, and food!
+    //   To join, first sign up below using the Sign Up link and then pay using the Pay link.`,
+    //   buttonText: `Sign Up`,
+    //   buttonUrl: `https://docs.google.com/forms/d/1jk-8khQIZ0CAjQXSvniqOl981d_uXip4Kz0ZOucjPVI/viewform?edit_requested=true`,
+    //   button2Text: `Pay`,
+    //   button2Url: `https://www.eventbrite.com/e/4th-of-july-flb-cornhole-tournament-tickets-653356174907`,
+    //   imgSrc: `assets/events/cornhole.jpg`,
+    //   date: new Date('Fri Jun 30 2023 19:00:00 GMT-0400')
+    // },
+    // {
+    //   title: `13th Anniversary Party - Whiskey Bound`,
+    //   description: `Woohoo!!! We have a fun weekend coming up and we want you to join the party!!!
+    //   Celebrations begin Friday, August 11th with Whiskey Bound - Ohio's Premier High Energy Country and Southern Rock Party Band! No Cover!`,
+    //   imgSrc: `assets/events/whiskeybound.jpg`,
+    //   date: new Date('Fri Aug 11 2023 19:30:00 GMT-0400')
+    // },
+    // {
+    //   title: `Fat Little Buffett Fest`,
+    //   description: `Join us for the 6th Annual Outdoor Music Festival featuring two Jimmy Buffett tribute bands!
+    //     Doors open at 2PM, live music starts at 3PM!!
+    //     Food by Kolar Concessions!
+    //     Proceeds Benefit Alzheimer's Association!`,
+    //   buttonText: `Buy Tickets`,
+    //   buttonUrl: `https://www.eventbrite.com/e/6th-annual-fat-little-buffett-music-festival-tickets-643782218947?aff=FLBSite`,
+    //   imgSrc: `assets/events/FLB_Fest.png`,
+    //   date: new Date('Sat Aug 12 2023 14:00:00 GMT-0400')
+    // }
     // {
     //   title: `0.5k Santa Stroll 2022`,
     //   description: `Join us for the 2022 0.5k Santa Stroll the day after Thanksgiving! Selfies with Santa
