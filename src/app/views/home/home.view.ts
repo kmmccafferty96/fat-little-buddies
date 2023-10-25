@@ -37,8 +37,10 @@ export class HomeView {
     //   imgSrc: 'assets/carousel/Santa_Elsa.jpg'
     // },
     {
-      title: 'Great Food',
-      description: `Fat Little Buddies has the best food in town!`,
+      prepretitle: 'Voted',
+      pretitle: '"Best Wings"',
+      title: 'in Northeast Ohio',
+      description: `Winner of Cleveland.com's best chicken wings in Northeast Ohio`,
       buttonText: 'View Menu',
       buttonUrl: 'menu',
       isExternalUrl: false,

@@ -3,6 +3,8 @@ import { Router } from '@angular/router';
 import * as Flickity from 'flickity';
 
 export interface CarouselItem {
+  prepretitle?: string;
+  pretitle?: string;
   title: string;
   description: string;
   buttonText: string;

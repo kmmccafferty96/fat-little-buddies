@@ -5,7 +5,11 @@
     [ngStyle]="{ 'background-image': 'url(' + item.imgSrc + ')' }"
   >
     <div class="carousel__main text-center px-10 xs:px-0 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
-      <h1 class="mat-headline text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase">{{ item.title }}</h1>
+      <h1
+        class="mat-headline text-4xl sm:text-5xl md:text-7xl uppercase"
+        [innerHTML]="item.pretitle ? item.prepretitle + '<br />' + item.pretitle + '<br />' + item.title : item.title"
+      ></h1>
+      <!-- TODO: mat-headline text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase -->
       <p class="mat-subheading-2 text-sm sm:text-base md:text-lg lg:text-xl">{{ item.description }}</p>
       <button
         *ngIf="!item.isExternalUrl"
